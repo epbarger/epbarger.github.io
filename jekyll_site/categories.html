@@ -1,0 +1,21 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+<h1 class="page-heading">Categories</h1>
+
+{% for category in site.categories reversed %}
+  <ul class="post-list">
+    <span class="post-meta">{{ category | first }}</span>
+    {% for posts in category %}
+      {% for post in posts %}
+        {% if post.url %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> » <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endfor %}
