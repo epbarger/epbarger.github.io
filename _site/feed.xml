@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evan Barger</title>
+    <description>Personal website of Evan Barger, Boston area software developer and electronics hobbyist.
+</description>
+    <link>https://epbarger.github.io/</link>
+    <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 Jan 2016 16:34:21 -0500</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 16:34:21 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Local Video - YouTube From Your Location</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://local-video.herokuapp.com&quot;&gt;Local Video&lt;/a&gt; is a simple Ruby on Rails application I built that uses YouTube’s API to pull videos that it has tagged as being near your coordinates. I’m still not entirely certain how YouTube classifies the video locations but from what I’ve seen it’s likely to be some combination of upload location and possibly video metadata. Either way, this tool tends to find some cool videos shot locally to you (and a lot of apartment listing videos as well).&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/local_video.png&quot; alt=&quot;Desktop&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The application itself is a basic Ruby on Rails app with a Postgres database. Essentially I just get the user location with the &lt;a href=&quot;http://www.w3schools.com/html/html5_geolocation.asp&quot;&gt;HTML5 Geolocation API&lt;/a&gt; and pass that to the YouTube video API.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Jan 2016 17:29:00 -0500</pubDate>
+        <link>https://epbarger.github.io/local-video/2016/01/15/local-video-into.html</link>
+        <guid isPermaLink="true">https://epbarger.github.io/local-video/2016/01/15/local-video-into.html</guid>
+        
+        
+        <category>local-video</category>
+        
+      </item>
+    
+      <item>
+        <title>Homebrew Blackjack for Nintendo 3DS</title>
+        <description>&lt;p&gt;The Nintendo 3DS has a pretty decent &lt;a href=&quot;https://en.wikipedia.org/wiki/Homebrew_%28video_games%29&quot;&gt;homebrew software&lt;/a&gt; scene. People have been creating all manner of cool things, from small applications to emulators. When I bought a 3DS, naturally I had to get involved.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/keanutah/blackjack-3ds&quot;&gt;Blackjack 3DS&lt;/a&gt; is a script for &lt;a href=&quot;https://github.com/Rinnegatamante/lpp-3ds&quot;&gt;Lua Player Plus&lt;/a&gt;, a Lua interpreter that gives you simple access to almost all of the 3DS’s interfaces and services. This was my first forray into Lua, which I ended up liking quite a bit. The game is a basic blackjack game with an infinite deck, and all of the typical rules including splits, doubling down, surrender, and insurance. It also supports the 3D effect, and it’s pretty damn cool to see the cards slightly hover above the screen.&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/blackjack_1.png&quot; alt=&quot;Blackjack Screen 1&quot; /&gt;
+&lt;img src=&quot;/assets/blackjack_2.png&quot; alt=&quot;Blackjack Screen 2&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Some random Chilean guy on YouTube has uploaded &lt;a href=&quot;https://www.youtube.com/watch?v=fuecBQXQL_k&quot;&gt;a video of the game&lt;/a&gt;, hopefully he likes it because I understand almost nothing he is saying.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Jan 2016 01:00:00 -0500</pubDate>
+        <link>https://epbarger.github.io/blackjack-3ds/2016/01/11/homebrew-blackjack-for-nintendo-3ds.html</link>
+        <guid isPermaLink="true">https://epbarger.github.io/blackjack-3ds/2016/01/11/homebrew-blackjack-for-nintendo-3ds.html</guid>
+        
+        
+        <category>blackjack-3ds</category>
+        
+      </item>
+    
+      <item>
+        <title>Resistor Calculator</title>
+        <description>&lt;p&gt;Just for the record, the phrase &lt;em&gt;‘resistor calculator’&lt;/em&gt; doesn’t make much sense to me. It’s really an encoder/decoder, not a calculator. However it seems like most people call this sort of tool a calculator so I’ll stick with that. I’m probably wrong anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.resistorcalc.net&quot;&gt;ResistorCalc.net&lt;/a&gt; is a simple tool that converts between four-band resistor color codes and their value. The page is written in Javascript, with a little jQuery for DOM manipulation. It also works quite well on phones thanks to the powers of everyone’s favorite responsive CSS framework.&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_1.png&quot; alt=&quot;Desktop&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I intend to add a few more features to the page in the future, but for now it’s complete and useful for hobbyists / EE students.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Jan 2016 21:08:58 -0500</pubDate>
+        <link>https://epbarger.github.io/resistor-calculator/2016/01/10/resistor-calc.html</link>
+        <guid isPermaLink="true">https://epbarger.github.io/resistor-calculator/2016/01/10/resistor-calc.html</guid>
+        
+        
+        <category>resistor-calculator</category>
+        
+      </item>
+    
+  </channel>
+</rss>
