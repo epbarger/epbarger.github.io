@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Evan Barger: Local Video - YouTube From Your Location</title>
-  <meta name="description" content="Local Video is a simple Ruby on Rails application I built that uses YouTube’s API to pull videos that it has tagged as being near your coordinates. I’m still...">
+  <title>Evan Barger: Major Rewrite and New Features for ResistorCalc.net</title>
+  <meta name="description" content="I’ve finally finished making a series of large changes to ResistorCalc.net, my simple Javascript resistor color code calculator. The biggest changes are behi...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://epbarger.github.io/local-video/2016/01/15/local-video-into.html">
+  <link rel="canonical" href="https://epbarger.github.io/resistor-calculator/2016/03/16/resistor-calc-update.html">
   <link rel="alternate" type="application/rss+xml" title="Evan Barger" href="https://epbarger.github.io/feed.xml">
 </head>
 
@@ -66,18 +66,22 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Local Video - YouTube From Your Location</h1>
-    <p class="post-meta"><time datetime="2016-01-15T17:29:00-05:00" itemprop="datePublished">Jan 15, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">Major Rewrite and New Features for ResistorCalc.net</h1>
+    <p class="post-meta"><time datetime="2016-03-16T01:00:00-04:00" itemprop="datePublished">Mar 16, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><a href="http://local-video.herokuapp.com">Local Video</a> is a simple Ruby on Rails application I built that uses YouTube’s API to pull videos that it has tagged as being near your coordinates. I’m still not entirely certain how YouTube classifies the video locations but from what I’ve seen it’s likely to be some combination of upload location and possibly video metadata. Either way, this tool tends to find some cool videos shot locally to you (and a lot of apartment listing videos as well).</p>
+    <p>I’ve finally finished making a series of large changes to <a href="http://www.resistorcalc.net">ResistorCalc.net</a>, my simple Javascript resistor color code calculator. The biggest changes are behind the scenes. I re-wrote the majority of the resistor conversion code, added a lot more functionality, and packaged everything up into a <em>Resistor</em> prototype. This more cleanly separates the business logic from the code that wires it all up to the UI. I also fixed some minor CSS issues. Styling should now be more consistent across mobile devices.</p>
 
-<div class="image-container">
-  <p><img src="/assets/local_video.png" alt="Desktop" /></p>
+<div class="image-container" style="width:79%;display:inline-block;">
+  <p><img src="/assets/resistor_calc_3.png" alt="Desktop" /></p>
+</div>
+<div class="image-container" style="width:20%;display:inline-block;">
+  <p><img src="/assets/resistor_calc_2.png" alt="Desktop" /></p>
 </div>
 
-<p>The application itself is a basic Ruby on Rails app with a Postgres database. Essentially I just get the user location with the <a href="http://www.w3schools.com/html/html5_geolocation.asp">HTML5 Geolocation API</a> and pass that to the YouTube video API.</p>
+<p>With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to <a href="">HTML5 ApplicationCache</a> support. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered. I believe that this tool is now one of the more feature complete resistor calculators out there.</p>
+
 
   </div>
 

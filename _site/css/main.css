@@ -477,7 +477,8 @@ img {
   border: 1px solid #EEE; }
 
 .image-container {
-  text-align: center; }
+  text-align: center;
+  margin: 20px 0px; }
 
 .page-heading {
   font-size: 28px; }

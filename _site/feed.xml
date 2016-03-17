@@ -6,9 +6,32 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 17:25:20 -0500</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 17:25:20 -0500</lastBuildDate>
+    <pubDate>Wed, 16 Mar 2016 22:10:08 -0400</pubDate>
+    <lastBuildDate>Wed, 16 Mar 2016 22:10:08 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Major Rewrite and New Features for ResistorCalc.net</title>
+        <description>&lt;p&gt;I’ve finally finished making a series of large changes to &lt;a href=&quot;http://www.resistorcalc.net&quot;&gt;ResistorCalc.net&lt;/a&gt;, my simple Javascript resistor color code calculator. The biggest changes are behind the scenes. I re-wrote the majority of the resistor conversion code, added a lot more functionality, and packaged everything up into a &lt;em&gt;Resistor&lt;/em&gt; prototype. This more cleanly separates the business logic from the code that wires it all up to the UI. I also fixed some minor CSS issues. Styling should now be more consistent across mobile devices.&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot; style=&quot;width:79%;display:inline-block;&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_3.png&quot; alt=&quot;Desktop&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-container&quot; style=&quot;width:20%;display:inline-block;&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_2.png&quot; alt=&quot;Desktop&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to &lt;a href=&quot;&quot;&gt;HTML5 ApplicationCache&lt;/a&gt; support. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered. I believe that this tool is now one of the more feature complete resistor calculators out there.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 16 Mar 2016 01:00:00 -0400</pubDate>
+        <link>https://epbarger.github.io/resistor-calculator/2016/03/16/resistor-calc-update.html</link>
+        <guid isPermaLink="true">https://epbarger.github.io/resistor-calculator/2016/03/16/resistor-calc-update.html</guid>
+        
+        
+        <category>resistor-calculator</category>
+        
+      </item>
     
       <item>
         <title>Local Video - YouTube From Your Location</title>
