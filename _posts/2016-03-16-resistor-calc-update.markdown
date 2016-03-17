@@ -10,10 +10,10 @@ I've finally finished making a series of large changes to [ResistorCalc.net](htt
 <div class='image-container' style='width:75%;display:inline-block;'>
 ![Desktop](/assets/resistor_calc_3.png)
 </div>
-<div class='image-container' style='width:18%;display:inline-block;'>
+<div class='image-container' style='width:17%;display:inline-block;'>
 ![Desktop](/assets/resistor_calc_2.png)
 </div>
 
-With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to [ApplicationCache](https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache) support. I would have liked to use the [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) but it's not supported in most mobile browsers yet. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered. 
+With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to [ApplicationCache](https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache) support. I would have liked to use the [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers), but it's not supported in most mobile browsers yet. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered. 
 
 I believe that this tool is now one of the more feature complete resistor calculators out there.
