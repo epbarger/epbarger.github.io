@@ -73,15 +73,16 @@
   <div class="post-content" itemprop="articleBody">
     <p>I’ve finally finished making a series of large changes to <a href="http://www.resistorcalc.net">ResistorCalc.net</a>, my simple Javascript resistor color code calculator. The biggest changes are behind the scenes. I re-wrote the majority of the resistor conversion code, added a lot more functionality, and packaged everything up into a <em>Resistor</em> prototype. This more cleanly separates the business logic from the code that wires it all up to the UI. I also fixed some minor CSS issues. Styling should now be more consistent across mobile devices.</p>
 
-<div class="image-container" style="width:79%;display:inline-block;">
+<div class="image-container" style="width:75%;display:inline-block;">
   <p><img src="/assets/resistor_calc_3.png" alt="Desktop" /></p>
 </div>
-<div class="image-container" style="width:20%;display:inline-block;">
+<div class="image-container" style="width:18%;display:inline-block;">
   <p><img src="/assets/resistor_calc_2.png" alt="Desktop" /></p>
 </div>
 
-<p>With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to <a href="">HTML5 ApplicationCache</a> support. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered. I believe that this tool is now one of the more feature complete resistor calculators out there.</p>
+<p>With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache">ApplicationCache</a> support. I would have liked to use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service Worker API</a> but it’s not supported in most mobile browsers yet. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered.</p>
 
+<p>I believe that this tool is now one of the more feature complete resistor calculators out there.</p>
 
   </div>
 
