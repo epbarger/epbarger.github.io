@@ -10,7 +10,7 @@ I've finally finished making a series of large changes to [ResistorCalc.net](htt
 <div class='image-container' style='width:75%;display:inline-block;'>
 ![Desktop](/assets/resistor_calc_3.png)
 </div>
-<div class='image-container' style='width:17%;display:inline-block;'>
+<div class='image-container' style='width:19%;display:inline-block;'>
 ![Desktop](/assets/resistor_calc_2.png)
 </div>
 
