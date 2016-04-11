@@ -66,6 +66,10 @@ $on-laptop:        800px;
   border-bottom: 1px solid #424242;
 }
 
+.trigger {
+  background-color: #3991ff;
+}
+
 .rss-subscribe {
   font-size:0.65em;
 }
@@ -102,6 +106,10 @@ img {
 
 a.site-title, a.site-title:visited {
   color: white;
+}
+
+.site-nav{
+  border-color: #424242;
 }
 
 .site-nav .page-link {
