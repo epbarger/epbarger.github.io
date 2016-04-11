@@ -6,8 +6,8 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Mar 2016 14:04:04 -0400</pubDate>
-    <lastBuildDate>Thu, 17 Mar 2016 14:04:04 -0400</lastBuildDate>
+    <pubDate>Sun, 10 Apr 2016 21:54:14 -0400</pubDate>
+    <lastBuildDate>Sun, 10 Apr 2016 21:54:14 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -17,11 +17,11 @@
 &lt;div class=&quot;image-container&quot; style=&quot;width:75%;display:inline-block;&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_3.png&quot; alt=&quot;Desktop&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;image-container&quot; style=&quot;width:18%;display:inline-block;&quot;&gt;
+&lt;div class=&quot;image-container&quot; style=&quot;width:19%;display:inline-block;&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_2.png&quot; alt=&quot;Desktop&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache&quot;&gt;ApplicationCache&lt;/a&gt; support. I would have liked to use the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers&quot;&gt;Service Worker API&lt;/a&gt; but it’s not supported in most mobile browsers yet. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered.&lt;/p&gt;
+&lt;p&gt;With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache&quot;&gt;ApplicationCache&lt;/a&gt; support. I would have liked to use the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers&quot;&gt;Service Worker API&lt;/a&gt;, but it’s not supported in most mobile browsers yet. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered.&lt;/p&gt;
 
 &lt;p&gt;I believe that this tool is now one of the more feature complete resistor calculators out there.&lt;/p&gt;
 </description>

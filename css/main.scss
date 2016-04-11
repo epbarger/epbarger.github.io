@@ -61,6 +61,11 @@ $on-laptop:        800px;
   }
 }
 
+.site-header{
+  background-color: #3991ff;
+  border-bottom: 1px solid #424242;
+}
+
 .rss-subscribe {
   font-size:0.65em;
 }
@@ -93,6 +98,22 @@ img {
 .site-title {
   font-size: 28px;
   font-weight: 600;
+}
+
+a.site-title, a.site-title:visited {
+  color: white;
+}
+
+.site-nav .page-link {
+  color: white;
+}
+
+.trigger span {
+  color: white;
+}
+
+.icon > svg path {
+    fill: rgba(255, 255, 255, 0.55);
 }
 
 .post-title {
