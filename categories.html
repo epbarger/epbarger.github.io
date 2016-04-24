@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Categories
-permalink: /categories/
+title: Posts By Project
+permalink: /projects/
 ---
-<h1 class="page-heading">Categories</h1>
+<h1 class="page-heading">Posts by Project<small>   <span class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">rss</a></span> </small></h1>
 
 {% for category in site.categories reversed %}
   <ul class="post-list">

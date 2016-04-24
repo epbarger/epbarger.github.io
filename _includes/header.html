@@ -14,12 +14,8 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="{{ site.baseurl }}/">posts</a>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | downcase }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class='page-link' href="/posts/">all posts</a>
+        <a class='page-link' href="/projects/">posts by project</a>
         {% include icon-linkedin.html username=site.linkedin_username %}
         {% include icon-github.html username=site.github_username %}
       </div>

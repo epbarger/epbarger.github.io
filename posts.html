@@ -1,0 +1,15 @@
+---
+layout: default
+title: All Posts
+permalink: /posts/
+---
+
+<h1 class="page-heading">All Posts<small>   <span class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">rss</a></span> </small></h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> » <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

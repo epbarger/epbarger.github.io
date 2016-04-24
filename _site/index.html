@@ -34,18 +34,8 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="/">posts</a>
-        
-          
-          <a class="page-link" href="/categories/">categories</a>
-          
-        
-          
-        
-          
-        
-          
-        
+        <a class='page-link' href="/posts/">all posts</a>
+        <a class='page-link' href="/projects/">posts by project</a>
         <a class='page-link' href="https://linkedin.com/in/evanbarger"><span class="icon icon--linkedin"><svg viewBox="0 0 57 57">
   <path fill="#828282" d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"></path>
 </svg>
@@ -65,33 +55,30 @@
     <div class="page-content">
       <div class="wrapper">
         <div class="home">
+  
+    <span class="post-meta">Latest Post, From <time datetime="2016-04-24T01:00:00-04:00" itemprop="datePublished">Apr 24, 2016</time></span>
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">DailyWiki - Random Wikipedia Articles Every Day</h1>
+      <p class="post-meta"></p>
+    </header>
 
-  <h1 class="page-heading">Posts<small>   <span class="rss-subscribe"><a href="/feed.xml">rss</a></span> </small></h1>
+    <div class="post-content" itemprop="articleBody">
+      <p><a href="https://fierce-reaches-42697.herokuapp.com/">DailyWiki</a> is a simple page that simply links 30 random <a href="https://en.wikipedia.org">Wikipedia</a> articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Apr 24, 2016</span> » <a href="/dailywiki/2016/04/24/dailywiki.html">DailyWiki - Random Wikipedia Articles Every Day</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 16, 2016</span> » <a href="/resistor-calculator/2016/03/16/resistor-calc-update.html">Major Rewrite and New Features for ResistorCalc.net</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 15, 2016</span> » <a href="/local-video/2016/01/15/local-video-into.html">Local Video - YouTube From Your Location</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 11, 2016</span> » <a href="/blackjack-3ds/2016/01/11/homebrew-blackjack-for-nintendo-3ds.html">Homebrew Blackjack for Nintendo 3DS</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 10, 2016</span> » <a href="/resistor-calculator/2016/01/10/resistor-calc.html">Resistor Calculator</a>
-      </li>
-    
-  </ul>
+<div class="image-container" style="width:49%;display:inline-block;">
+  <p><img src="/assets/dailywiki_1.png" alt="DailyWiki Light Theme" /></p>
+</div>
+<div class="image-container" style="width:49%;display:inline-block;">
+  <p><img src="/assets/dailywiki_2.png" alt="DailyWiki Dark Theme" /></p>
+</div>
 
+<p>It’s a very basic Rails app at the moment. Once a day I refresh a <a href="http://redis.io/">Redis</a> cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. There are no models, and only one controller action, so it’s pretty hard to even justify it being a Rails app in the first place.</p>
+
+<p>In the future I want to try rewriting it in <a href="http://www.sinatrarb.com/intro.html">Sinatra</a>. Other than that, I’m not sure where else I’ll take this project, but it was fun to throw together!</p>
+
+    </div>
+  
+  <a class='page-link pull-right' href="/posts/">More Posts...</a>
 </div>
 
       </div>

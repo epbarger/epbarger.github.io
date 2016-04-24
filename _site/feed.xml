@@ -6,8 +6,8 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Apr 2016 17:22:36 -0400</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2016 17:22:36 -0400</lastBuildDate>
+    <pubDate>Sun, 24 Apr 2016 19:03:08 -0400</pubDate>
+    <lastBuildDate>Sun, 24 Apr 2016 19:03:08 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -81,14 +81,12 @@
         <title>Homebrew Blackjack for Nintendo 3DS</title>
         <description>&lt;p&gt;The Nintendo 3DS has a pretty decent &lt;a href=&quot;https://en.wikipedia.org/wiki/Homebrew_%28video_games%29&quot;&gt;homebrew software&lt;/a&gt; scene. People have been creating all manner of cool things, from small applications to emulators. When I bought a 3DS, naturally I had to get involved.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/keanutah/blackjack-3ds&quot;&gt;Blackjack 3DS&lt;/a&gt; is a script for &lt;a href=&quot;https://github.com/Rinnegatamante/lpp-3ds&quot;&gt;Lua Player Plus&lt;/a&gt;, a Lua interpreter that gives you simple access to almost all of the 3DS’s interfaces and services. This was my first foray into Lua, which I ended up liking quite a bit. The game is a basic blackjack game with an infinite deck, and all of the typical rules including splits, doubling down, surrender, and insurance. It also supports the 3D effect, and it’s pretty damn cool to see the cards slightly hover above the screen.&lt;/p&gt;
-
 &lt;div class=&quot;image-container&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/assets/blackjack_1.png&quot; alt=&quot;Blackjack Screen 1&quot; /&gt;
 &lt;img src=&quot;/assets/blackjack_2.png&quot; alt=&quot;Blackjack Screen 2&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Some Chilean guy on YouTube has uploaded &lt;a href=&quot;https://www.youtube.com/watch?v=fuecBQXQL_k&quot;&gt;a video of the game&lt;/a&gt;, hopefully he likes it because I understand almost nothing he is saying.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/keanutah/blackjack-3ds&quot;&gt;Blackjack 3DS&lt;/a&gt; is a script for &lt;a href=&quot;https://github.com/Rinnegatamante/lpp-3ds&quot;&gt;Lua Player Plus&lt;/a&gt;, a Lua interpreter that gives you simple access to almost all of the 3DS’s interfaces and services. This was my first foray into Lua, which I ended up liking quite a bit. The game is a basic blackjack game with an infinite deck, and all of the typical rules including splits, doubling down, surrender, and insurance. It also supports the 3D effect, and it’s pretty damn cool to see the cards slightly hover above the screen.&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Jan 2016 01:00:00 -0500</pubDate>
         <link>https://epbarger.github.io/blackjack-3ds/2016/01/11/homebrew-blackjack-for-nintendo-3ds.html</link>
