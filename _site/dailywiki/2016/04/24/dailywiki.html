@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Evan Barger: Local Video - YouTube From Your Location</title>
-  <meta name="description" content="Local Video is a simple Ruby on Rails application I built that uses YouTube’s API to pull videos that it has tagged as being near your coordinates. I’m still...">
+  <title>Evan Barger: DailyWiki - Random Wikipedia Articles Every Day</title>
+  <meta name="description" content="DailyWiki is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsi...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://epbarger.github.io/local-video/2016/01/15/local-video-into.html">
+  <link rel="canonical" href="https://epbarger.github.io/dailywiki/2016/04/24/dailywiki.html">
   <link rel="alternate" type="application/rss+xml" title="Evan Barger" href="https://epbarger.github.io/feed.xml">
 </head>
 
@@ -66,18 +66,23 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Local Video - YouTube From Your Location</h1>
-    <p class="post-meta"><time datetime="2016-01-15T17:29:00-05:00" itemprop="datePublished">Jan 15, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">DailyWiki - Random Wikipedia Articles Every Day</h1>
+    <p class="post-meta"><time datetime="2016-04-24T01:00:00-04:00" itemprop="datePublished">Apr 24, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><a href="http://local-video.herokuapp.com">Local Video</a> is a simple Ruby on Rails application I built that uses YouTube’s API to pull videos that it has tagged as being near your coordinates. I’m still not entirely certain how YouTube classifies the video locations but from what I’ve seen it’s likely to be some combination of upload location and possibly video metadata. Either way, this tool tends to find some cool videos shot locally to you (and a lot of apartment listing videos as well).</p>
+    <p><a href="https://fierce-reaches-42697.herokuapp.com/">DailyWiki</a> is a simple page that simply links 30 random <a href="https://en.wikipedia.org">Wikipedia</a> articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.</p>
 
-<div class="image-container">
-  <p><img src="/assets/local_video.png" alt="Local Video Screenshot" /></p>
+<div class="image-container" style="width:49%;display:inline-block;">
+  <p><img src="/assets/dailywiki_1.png" alt="DailyWiki Light Theme" /></p>
+</div>
+<div class="image-container" style="width:49%;display:inline-block;">
+  <p><img src="/assets/dailywiki_2.png" alt="DailyWiki Dark Theme" /></p>
 </div>
 
-<p>The application itself is a basic Ruby on Rails app with a Postgres database. Essentially I just get the user location with the <a href="http://www.w3schools.com/html/html5_geolocation.asp">HTML5 Geolocation API</a> and pass that to the YouTube video API.</p>
+<p>It’s a very basic Rails app at the moment. Once a day I refresh a <a href="http://redis.io/">Redis</a> cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. There are no models, and only one controller action, so it’s pretty hard to even justify it being a Rails app in the first place.</p>
+
+<p>In the future I want to try rewriting it in <a href="http://www.sinatrarb.com/intro.html">Sinatra</a>. Other than that, I’m not sure where else I’ll take this project, but it was fun to throw together!</p>
 
   </div>
 
