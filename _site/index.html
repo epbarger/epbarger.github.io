@@ -63,7 +63,7 @@
     </header>
 
     <div class="post-content" itemprop="articleBody">
-      <p><a href="https://fierce-reaches-42697.herokuapp.com/">DailyWiki</a> is a simple page that simply links 30 random <a href="https://en.wikipedia.org">Wikipedia</a> articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.</p>
+      <p><a href="https://gentle-tundra-91628.herokuapp.com/">DailyWiki</a> is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.</p>
 
 <div class="image-container" style="width:49%;display:inline-block;">
   <p><img src="/assets/dailywiki_1.png" alt="DailyWiki Light Theme" /></p>
@@ -72,9 +72,9 @@
   <p><img src="/assets/dailywiki_2.png" alt="DailyWiki Dark Theme" /></p>
 </div>
 
-<p>It’s a very basic Rails app at the moment. Once a day I refresh a <a href="http://redis.io/">Redis</a> cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. There are no models, and only one controller action, so it’s pretty hard to even justify it being a Rails app in the first place.</p>
+<p>It’s a very basic <a href="http://www.sinatrarb.com/intro.html">Sinatra</a> application. Once a day I refresh a <a href="http://redis.io/">Redis</a> cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. This was my first time using Sinatra, and I really appreciated how simple and clean it can be compared to writing Rails code. I’ll definitely be using it again in the future for these simple lightweight projects that require a server.</p>
 
-<p>In the future I want to try rewriting it in <a href="http://www.sinatrarb.com/intro.html">Sinatra</a>. Other than that, I’m not sure where else I’ll take this project, but it was fun to throw together!</p>
+<p>I’m not sure where else I’ll take this project, but it was fun to throw together!</p>
 
     </div>
   

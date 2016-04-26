@@ -6,13 +6,13 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Apr 2016 19:14:10 -0400</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2016 19:14:10 -0400</lastBuildDate>
+    <pubDate>Tue, 26 Apr 2016 08:32:43 -0400</pubDate>
+    <lastBuildDate>Tue, 26 Apr 2016 08:32:43 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>DailyWiki - Random Wikipedia Articles Every Day</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://fierce-reaches-42697.herokuapp.com/&quot;&gt;DailyWiki&lt;/a&gt; is a simple page that simply links 30 random &lt;a href=&quot;https://en.wikipedia.org&quot;&gt;Wikipedia&lt;/a&gt; articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://gentle-tundra-91628.herokuapp.com/&quot;&gt;DailyWiki&lt;/a&gt; is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot; style=&quot;width:49%;display:inline-block;&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_1.png&quot; alt=&quot;DailyWiki Light Theme&quot; /&gt;&lt;/p&gt;
@@ -21,9 +21,9 @@
   &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_2.png&quot; alt=&quot;DailyWiki Dark Theme&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;It’s a very basic Rails app at the moment. Once a day I refresh a &lt;a href=&quot;http://redis.io/&quot;&gt;Redis&lt;/a&gt; cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. There are no models, and only one controller action, so it’s pretty hard to even justify it being a Rails app in the first place.&lt;/p&gt;
+&lt;p&gt;It’s a very basic &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;Sinatra&lt;/a&gt; application. Once a day I refresh a &lt;a href=&quot;http://redis.io/&quot;&gt;Redis&lt;/a&gt; cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. This was my first time using Sinatra, and I really appreciated how simple and clean it can be compared to writing Rails code. I’ll definitely be using it again in the future for these simple lightweight projects that require a server.&lt;/p&gt;
 
-&lt;p&gt;In the future I want to try rewriting it in &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;Sinatra&lt;/a&gt;. Other than that, I’m not sure where else I’ll take this project, but it was fun to throw together!&lt;/p&gt;
+&lt;p&gt;I’m not sure where else I’ll take this project, but it was fun to throw together!&lt;/p&gt;
 </description>
         <pubDate>Sun, 24 Apr 2016 01:00:00 -0400</pubDate>
         <link>https://epbarger.github.io/dailywiki/2016/04/24/dailywiki.html</link>
