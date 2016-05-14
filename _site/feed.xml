@@ -6,8 +6,8 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Apr 2016 08:32:43 -0400</pubDate>
-    <lastBuildDate>Tue, 26 Apr 2016 08:32:43 -0400</lastBuildDate>
+    <pubDate>Sat, 14 May 2016 15:05:34 -0400</pubDate>
+    <lastBuildDate>Sat, 14 May 2016 15:05:34 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -15,10 +15,10 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://gentle-tundra-91628.herokuapp.com/&quot;&gt;DailyWiki&lt;/a&gt; is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot; style=&quot;width:49%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_1.png&quot; alt=&quot;DailyWiki Light Theme&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_1.jpg&quot; alt=&quot;DailyWiki Light Theme&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;image-container&quot; style=&quot;width:49%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_2.png&quot; alt=&quot;DailyWiki Dark Theme&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_2.jpg&quot; alt=&quot;DailyWiki Dark Theme&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It’s a very basic &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;Sinatra&lt;/a&gt; application. Once a day I refresh a &lt;a href=&quot;http://redis.io/&quot;&gt;Redis&lt;/a&gt; cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. This was my first time using Sinatra, and I really appreciated how simple and clean it can be compared to writing Rails code. I’ll definitely be using it again in the future for these simple lightweight projects that require a server.&lt;/p&gt;
@@ -39,10 +39,10 @@
         <description>&lt;p&gt;I’ve finally finished making a series of large changes to &lt;a href=&quot;http://www.resistorcalc.net&quot;&gt;ResistorCalc.net&lt;/a&gt;, my simple Javascript resistor color code calculator. The biggest changes are behind the scenes. I re-wrote the majority of the resistor conversion code, added a lot more functionality, and packaged everything up into a &lt;em&gt;Resistor&lt;/em&gt; prototype. This more cleanly separates the business logic from the code that wires it all up to the UI. I also fixed some minor CSS issues. Styling should now be more consistent across mobile devices.&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot; style=&quot;width:75%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_3.png&quot; alt=&quot;Resistor Screenshot Desktop&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_3.jpg&quot; alt=&quot;Resistor Screenshot Desktop&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;image-container&quot; style=&quot;width:19%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_2.png&quot; alt=&quot;Resistor Screenshot Mobile&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_2.jpg&quot; alt=&quot;Resistor Screenshot Mobile&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache&quot;&gt;ApplicationCache&lt;/a&gt; support. I would have liked to use the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers&quot;&gt;Service Worker API&lt;/a&gt;, but it’s not supported in most mobile browsers yet. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered.&lt;/p&gt;
