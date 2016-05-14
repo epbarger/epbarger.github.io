@@ -6,8 +6,8 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 May 2016 15:05:34 -0400</pubDate>
-    <lastBuildDate>Sat, 14 May 2016 15:05:34 -0400</lastBuildDate>
+    <pubDate>Sat, 14 May 2016 16:03:47 -0400</pubDate>
+    <lastBuildDate>Sat, 14 May 2016 16:03:47 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -15,10 +15,10 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://gentle-tundra-91628.herokuapp.com/&quot;&gt;DailyWiki&lt;/a&gt; is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot; style=&quot;width:49%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_1.jpg&quot; alt=&quot;DailyWiki Light Theme&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_1.png&quot; alt=&quot;DailyWiki Light Theme&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;image-container&quot; style=&quot;width:49%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_2.jpg&quot; alt=&quot;DailyWiki Dark Theme&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_2.png&quot; alt=&quot;DailyWiki Dark Theme&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It’s a very basic &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;Sinatra&lt;/a&gt; application. Once a day I refresh a &lt;a href=&quot;http://redis.io/&quot;&gt;Redis&lt;/a&gt; cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. This was my first time using Sinatra, and I really appreciated how simple and clean it can be compared to writing Rails code. I’ll definitely be using it again in the future for these simple lightweight projects that require a server.&lt;/p&gt;
