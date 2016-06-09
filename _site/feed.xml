@@ -6,9 +6,30 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 May 2016 21:03:31 -0400</pubDate>
-    <lastBuildDate>Mon, 23 May 2016 21:03:31 -0400</lastBuildDate>
+    <pubDate>Wed, 08 Jun 2016 22:10:56 -0400</pubDate>
+    <lastBuildDate>Wed, 08 Jun 2016 22:10:56 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Combo Caddy - Javascript Boxing Coach</title>
+        <description>&lt;p&gt;Learning how to box has had me feeling just a bit too cool, so I had to find a way to nerd it up.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://combo-caddy.s3-website-us-east-1.amazonaws.com/&quot;&gt;Combo Caddy&lt;/a&gt; is a simple mobile-friendly website that shouts boxing combos at you, for heavy bag work or other training. Much like &lt;a href=&quot;/resistor-calculator/2016/03/16/resistor-calc-update.html&quot;&gt;ResistorCalc&lt;/a&gt;, it is a simple single page Javascript website, with nothing fancy behind the scenes. There is still plenty of work to be done. Right now the boxing “coach” is just myself doing a gruff voice into a headset microphone.&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/combo_caddy.png&quot; alt=&quot;ComboCaddy Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So far this project has been a fun journey into the &lt;a href=&quot;http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html&quot;&gt;quirks of iOS HTML5 audio support&lt;/a&gt;. Apple’s phones will only play audio if it was directly triggered by a user action. This means I need to reuse the same Javascript audio object by swapping out the source when needed. Unfortunately, iOS also seems incapable of caching more than one audio file at a time, so every time I swap the source, the file is fetched from the network, causing some extra delay. The solution to this will be to use an &lt;a href=&quot;http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html#audiosprites&quot;&gt;audio sprite&lt;/a&gt;, something I will get to once I have a more “professional sounding” voice coach :).&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jun 2016 13:00:00 -0400</pubDate>
+        <link>https://epbarger.github.io/combo-caddy/2016/06/08/combo-caddy.html</link>
+        <guid isPermaLink="true">https://epbarger.github.io/combo-caddy/2016/06/08/combo-caddy.html</guid>
+        
+        
+        <category>combo-caddy</category>
+        
+      </item>
     
       <item>
         <title>DailyWiki - Random Wikipedia Articles Every Day</title>

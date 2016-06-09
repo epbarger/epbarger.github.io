@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Evan Barger: Posts by Project</title>
-  <meta name="description" content="Personal website of Evan Barger, Boston area software developer and electronics hobbyist.
-">
+  <title>Evan Barger: Combo Caddy - Javascript Boxing Coach</title>
+  <meta name="description" content="Learning how to box has had me feeling just a bit too cool, so I had to find a way to nerd it up.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://epbarger.github.io/projects/">
+  <link rel="canonical" href="https://epbarger.github.io/combo-caddy/2016/06/08/combo-caddy.html">
   <link rel="alternate" type="application/rss+xml" title="Evan Barger" href="https://epbarger.github.io/feed.xml">
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.png"/>
   <link rel="apple-touch-icon" href="/assets/favicon.png">
@@ -56,100 +55,27 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <h1 class="page-heading">Posts by Project</h1>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Combo Caddy - Javascript Boxing Coach</h1>
+    <p class="post-meta"><time datetime="2016-06-08T13:00:00-04:00" itemprop="datePublished">Jun 8, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    <span class="post-meta category-header">combo-caddy</span>
-    
-      
-        
-      
-    
-      
-        
-          <li>
-            <span class="post-meta">Jun 8, 2016</span> » <a href="/combo-caddy/2016/06/08/combo-caddy.html">Combo Caddy - Javascript Boxing Coach</a>
-          </li>
-        
-      
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <p>Learning how to box has had me feeling just a bit too cool, so I had to find a way to nerd it up.</p>
 
-  <ul class="post-list">
-    <span class="post-meta category-header">dailywiki</span>
-    
-      
-        
-      
-    
-      
-        
-          <li>
-            <span class="post-meta">Apr 24, 2016</span> » <a href="/dailywiki/2016/04/24/dailywiki.html">DailyWiki - Random Wikipedia Articles Every Day</a>
-          </li>
-        
-      
-    
-  </ul>
+<p><a href="http://combo-caddy.s3-website-us-east-1.amazonaws.com/">Combo Caddy</a> is a simple mobile-friendly website that shouts boxing combos at you, for heavy bag work or other training. Much like <a href="/resistor-calculator/2016/03/16/resistor-calc-update.html">ResistorCalc</a>, it is a simple single page Javascript website, with nothing fancy behind the scenes. There is still plenty of work to be done. Right now the boxing “coach” is just myself doing a gruff voice into a headset microphone.</p>
 
-  <ul class="post-list">
-    <span class="post-meta category-header">local-video</span>
-    
-      
-        
-      
-    
-      
-        
-          <li>
-            <span class="post-meta">Jan 15, 2016</span> » <a href="/local-video/2016/01/15/local-video-into.html">Local Video - YouTube From Your Location</a>
-          </li>
-        
-      
-    
-  </ul>
+<div class="image-container">
+  <p><img src="/assets/combo_caddy.png" alt="ComboCaddy Screenshot" /></p>
+</div>
 
-  <ul class="post-list">
-    <span class="post-meta category-header">blackjack-3ds</span>
-    
-      
-        
-      
-    
-      
-        
-          <li>
-            <span class="post-meta">Jan 11, 2016</span> » <a href="/blackjack-3ds/2016/01/11/homebrew-blackjack-for-nintendo-3ds.html">Homebrew Blackjack for Nintendo 3DS</a>
-          </li>
-        
-      
-    
-  </ul>
+<p>So far this project has been a fun journey into the <a href="http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html">quirks of iOS HTML5 audio support</a>. Apple’s phones will only play audio if it was directly triggered by a user action. This means I need to reuse the same Javascript audio object by swapping out the source when needed. Unfortunately, iOS also seems incapable of caching more than one audio file at a time, so every time I swap the source, the file is fetched from the network, causing some extra delay. The solution to this will be to use an <a href="http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html#audiosprites">audio sprite</a>, something I will get to once I have a more “professional sounding” voice coach :).</p>
 
-  <ul class="post-list">
-    <span class="post-meta category-header">resistor-calculator</span>
-    
-      
-        
-      
-    
-      
-        
-          <li>
-            <span class="post-meta">Mar 16, 2016</span> » <a href="/resistor-calculator/2016/03/16/resistor-calc-update.html">Major Rewrite and New Features for ResistorCalc.net</a>
-          </li>
-        
-      
-        
-          <li>
-            <span class="post-meta">Jan 10, 2016</span> » <a href="/resistor-calculator/2016/01/10/resistor-calc.html">Resistor Calculator</a>
-          </li>
-        
-      
-    
-  </ul>
+  </div>
 
+</article>
 
       </div>
     </div>

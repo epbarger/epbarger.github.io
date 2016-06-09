@@ -58,25 +58,22 @@
       <div class="wrapper">
         <div class="home">
   
-    <span class="post-meta">Latest Post, From <time datetime="2016-04-24T01:00:00-04:00" itemprop="datePublished">Apr 24, 2016</time></span>
+    <span class="post-meta">Latest Post, From <time datetime="2016-06-08T13:00:00-04:00" itemprop="datePublished">Jun 8, 2016</time></span>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">DailyWiki - Random Wikipedia Articles Every Day</h1>
+      <h1 class="post-title" itemprop="name headline">Combo Caddy - Javascript Boxing Coach</h1>
       <p class="post-meta"></p>
     </header>
 
     <div class="post-content" itemprop="articleBody">
-      <p><a href="https://gentle-tundra-91628.herokuapp.com/">DailyWiki</a> is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.</p>
+      <p>Learning how to box has had me feeling just a bit too cool, so I had to find a way to nerd it up.</p>
 
-<div class="image-container" style="width:49%;display:inline-block;">
-  <p><img src="/assets/dailywiki_1.png" alt="DailyWiki Light Theme" /></p>
+<p><a href="http://combo-caddy.s3-website-us-east-1.amazonaws.com/">Combo Caddy</a> is a simple mobile-friendly website that shouts boxing combos at you, for heavy bag work or other training. Much like <a href="/resistor-calculator/2016/03/16/resistor-calc-update.html">ResistorCalc</a>, it is a simple single page Javascript website, with nothing fancy behind the scenes. There is still plenty of work to be done. Right now the boxing “coach” is just myself doing a gruff voice into a headset microphone.</p>
+
+<div class="image-container">
+  <p><img src="/assets/combo_caddy.png" alt="ComboCaddy Screenshot" /></p>
 </div>
-<div class="image-container" style="width:49%;display:inline-block;">
-  <p><img src="/assets/dailywiki_2.png" alt="DailyWiki Dark Theme" /></p>
-</div>
 
-<p>It’s a very basic <a href="http://www.sinatrarb.com/intro.html">Sinatra</a> application. Once a day I refresh a <a href="http://redis.io/">Redis</a> cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. This was my first time using Sinatra, and I really appreciated how simple and clean it can be compared to writing Rails code. I’ll definitely be using it again in the future for these simple lightweight projects that require a server.</p>
-
-<p>I’m not sure where else I’ll take this project, but it was fun to throw together!</p>
+<p>So far this project has been a fun journey into the <a href="http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html">quirks of iOS HTML5 audio support</a>. Apple’s phones will only play audio if it was directly triggered by a user action. This means I need to reuse the same Javascript audio object by swapping out the source when needed. Unfortunately, iOS also seems incapable of caching more than one audio file at a time, so every time I swap the source, the file is fetched from the network, causing some extra delay. The solution to this will be to use an <a href="http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html#audiosprites">audio sprite</a>, something I will get to once I have a more “professional sounding” voice coach :).</p>
 
     </div>
   
