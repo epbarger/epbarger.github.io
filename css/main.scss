@@ -80,15 +80,14 @@ $on-laptop:        800px;
 
 img {
   border-radius: 3px;
-  margin:px 5px;
-  max-width:95%;
-  padding: 5px;
+  // margin:px 5px;
+  // max-width:95%;
   border: 1px solid #EEE;
 }
 
 .image-container{
   text-align:center;
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 
 .page-heading {
@@ -114,6 +113,7 @@ a.site-title, a.site-title:visited {
 
 .site-nav .page-link {
   color: white;
+  // font-size: 14px;
 }
 
 .trigger span {
@@ -135,4 +135,32 @@ a.site-title, a.site-title:visited {
 
 .pull-right {
   float: right;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.page-navigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.page-navigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.page-navigation .next {
+  text-align: right;
+}
+
+.icon > svg {
+  width: 12px;
+  height: 12px;
+  vertical-align: baseline;
 }

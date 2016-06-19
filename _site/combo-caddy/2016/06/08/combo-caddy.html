@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
 
   <title>Evan Barger: Combo Caddy - Javascript Boxing Coach</title>
   <meta name="description" content="Learning how to box has had me feeling just a bit too cool, so I had to find a way to nerd it up.">
@@ -23,7 +24,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">Evan Barger</a>
+    <a class="site-title" href="/combo-caddy/2016/06/08/combo-caddy.html/">Evan Barger</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -35,15 +36,15 @@
       </a>
 
       <div class="trigger">
-        <a class='page-link' href="/posts/">all posts</a>
-        <a class='page-link' href="/projects/">posts by project</a>
+        <a class='page-link' href="/posts/">All Posts</a>
+        <a class='page-link' href="/projects/">Posts by Project</a>
         <a class='page-link' href="https://linkedin.com/in/evanbarger"><span class="icon icon--linkedin"><svg viewBox="0 0 57 57">
   <path fill="#828282" d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"></path>
 </svg>
-</span><span class="username">linkedin</span></a>
+</span><span class="username">LinkedIn</span></a>
 
         <a class='page-link' href="https://github.com/epbarger"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
-</span><span class="username">github</span></a>
+</span><span class="username">GitHub</span></a>
 
       </div>
     </nav>
@@ -68,13 +69,19 @@
 <p><a href="http://combo-caddy.s3-website-us-east-1.amazonaws.com/">Combo Caddy</a> is a simple mobile-friendly website that shouts boxing combos at you, for heavy bag work or other training. Much like <a href="/resistor-calculator/2016/03/16/resistor-calc-update.html">ResistorCalc</a>, it is a simple single page Javascript website, with nothing fancy behind the scenes. There is still plenty of work to be done. Right now the boxing “coach” is just myself doing a gruff voice into a headset microphone.</p>
 
 <div class="image-container">
-  <p><img src="/assets/combo_caddy.png" alt="ComboCaddy Screenshot" /></p>
+  <p><img src="/assets/combo_caddy_2.png" alt="ComboCaddy Screenshot" /></p>
 </div>
 
 <p>So far this project has been a fun journey into the <a href="http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html">quirks of iOS HTML5 audio support</a>. Apple’s phones will only play audio if it was directly triggered by a user action. This means I need to reuse the same Javascript audio object by swapping out the source when needed. Unfortunately, iOS also seems incapable of caching more than one audio file at a time, so every time I swap the source, the file is fetched from the network, causing some extra delay. The solution to this will be to use an <a href="http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html#audiosprites">audio sprite</a>, something I will get to once I have a more “professional sounding” voice coach :).</p>
 
   </div>
 
+  <div class="page-navigation">
+    
+      <a class="prev" href="/dailywiki/2016/04/24/dailywiki.html">&laquo; DailyWiki - Random Wikipedia Articles Every Day</a>
+    
+    
+  </div>
 </article>
 
       </div>

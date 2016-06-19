@@ -4,15 +4,14 @@ layout: default
 
 <div class="home">
   {% for post in site.posts limit:1 %}
-    <span class="post-meta">Latest Post, From <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></span>
+    <!-- <span class="post-meta">Latest Post</time></span> -->
     <header class="post-header">
       <h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
-      <p class="post-meta">{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+      <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
     </header>
 
     <div class="post-content" itemprop="articleBody">
       {{ post.content }}
     </div>
   {% endfor %}
-  <a class='page-link pull-right' href="/posts/">More Posts...</a>
 </div>
