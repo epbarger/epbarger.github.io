@@ -6,8 +6,8 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jun 2016 13:03:37 -0400</pubDate>
-    <lastBuildDate>Sun, 19 Jun 2016 13:03:37 -0400</lastBuildDate>
+    <pubDate>Mon, 20 Jun 2016 13:43:48 -0400</pubDate>
+    <lastBuildDate>Mon, 20 Jun 2016 13:43:48 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -17,7 +17,7 @@
 &lt;p&gt;&lt;a href=&quot;http://combo-caddy.s3-website-us-east-1.amazonaws.com/&quot;&gt;Combo Caddy&lt;/a&gt; is a simple mobile-friendly website that shouts boxing combos at you, for heavy bag work or other training. Much like &lt;a href=&quot;/resistor-calculator/2016/03/16/resistor-calc-update.html&quot;&gt;ResistorCalc&lt;/a&gt;, it is a simple single page Javascript website, with nothing fancy behind the scenes. There is still plenty of work to be done. Right now the boxing “coach” is just myself doing a gruff voice into a headset microphone.&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/combo_caddy_2.png&quot; alt=&quot;ComboCaddy Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/combo_caddy_2.png&quot;&gt;&lt;img src=&quot;/assets/combo_caddy_2.png&quot; alt=&quot;ComboCaddy Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;So far this project has been a fun journey into the &lt;a href=&quot;http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html&quot;&gt;quirks of iOS HTML5 audio support&lt;/a&gt;. Apple’s phones will only play audio if it was directly triggered by a user action. This means I need to reuse the same Javascript audio object by swapping out the source when needed. Unfortunately, iOS also seems incapable of caching more than one audio file at a time, so every time I swap the source, the file is fetched from the network, causing some extra delay. The solution to this will be to use an &lt;a href=&quot;http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html#audiosprites&quot;&gt;audio sprite&lt;/a&gt;, something I will get to once I have a more “professional sounding” voice coach :).&lt;/p&gt;
@@ -36,10 +36,10 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://gentle-tundra-91628.herokuapp.com/&quot;&gt;DailyWiki&lt;/a&gt; is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I’ve always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot; style=&quot;width:49%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_1.png&quot; alt=&quot;DailyWiki Light Theme&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/dailywiki_1.png&quot;&gt;&lt;img src=&quot;/assets/dailywiki_1.png&quot; alt=&quot;DailyWiki Light Theme&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;image-container&quot; style=&quot;width:49%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/dailywiki_2.png&quot; alt=&quot;DailyWiki Dark Theme&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/dailywiki_2.png&quot;&gt;&lt;img src=&quot;/assets/dailywiki_2.png&quot; alt=&quot;DailyWiki Dark Theme&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It’s a very basic &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;Sinatra&lt;/a&gt; application. Once a day I refresh a &lt;a href=&quot;http://redis.io/&quot;&gt;Redis&lt;/a&gt; cache of 30 wikipedia articles, and render them on the page. This keeps the article list in sync for everyone using the website. This was my first time using Sinatra, and I really appreciated how simple and clean it can be compared to writing Rails code. I’ll definitely be using it again in the future for these simple lightweight projects that require a server.&lt;/p&gt;
@@ -59,11 +59,11 @@
         <title>Major Rewrite and New Features for ResistorCalc.net</title>
         <description>&lt;p&gt;I’ve finally finished making a series of large changes to &lt;a href=&quot;http://www.resistorcalc.net&quot;&gt;ResistorCalc.net&lt;/a&gt;, my simple Javascript resistor color code calculator. The biggest changes are behind the scenes. I re-wrote the majority of the resistor conversion code, added a lot more functionality, and packaged everything up into a &lt;em&gt;Resistor&lt;/em&gt; prototype. This more cleanly separates the business logic from the code that wires it all up to the UI. I also fixed some minor CSS issues. Styling should now be more consistent across mobile devices.&lt;/p&gt;
 
-&lt;div class=&quot;image-container&quot; style=&quot;width:79%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_3.jpg&quot; alt=&quot;Resistor Screenshot Desktop&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-container&quot; style=&quot;width:78%;display:inline-block;&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/resistor_calc_3.jpg&quot;&gt;&lt;img src=&quot;/assets/resistor_calc_3.jpg&quot; alt=&quot;Resistor Screenshot Desktop&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;image-container&quot; style=&quot;width:20%;display:inline-block;&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_2.jpg&quot; alt=&quot;Resistor Screenshot Mobile&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/resistor_calc_2.jpg&quot;&gt;&lt;img src=&quot;/assets/resistor_calc_2.jpg&quot; alt=&quot;Resistor Screenshot Mobile&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;With this update comes some features! The application now supports five band resistors, and can even convert between four and five band. It now works offline, thanks to &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache&quot;&gt;ApplicationCache&lt;/a&gt; support. I would have liked to use the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers&quot;&gt;Service Worker API&lt;/a&gt;, but it’s not supported in most mobile browsers yet. The final new feature, and a personal favorite, is the ability to tell you the nearest real-world resistor value comparable to the one you entered.&lt;/p&gt;
@@ -84,7 +84,7 @@
         <description>&lt;p&gt;&lt;a href=&quot;http://local-video.herokuapp.com&quot;&gt;Local Video&lt;/a&gt; is a simple Ruby on Rails application I built that uses YouTube’s API to pull videos that it has tagged as being near your coordinates. I’m still not entirely certain how YouTube classifies the video locations but from what I’ve seen it’s likely to be some combination of upload location and possibly video metadata. Either way, this tool tends to find some cool videos shot locally to you (and a lot of apartment listing videos as well).&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/local_video.png&quot; alt=&quot;Local Video Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/local_video.png&quot;&gt;&lt;img src=&quot;/assets/local_video.png&quot; alt=&quot;Local Video Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The application itself is a basic Ruby on Rails app with a Postgres database. Essentially I just get the user location with the &lt;a href=&quot;http://www.w3schools.com/html/html5_geolocation.asp&quot;&gt;HTML5 Geolocation API&lt;/a&gt; and pass that to the YouTube video API.&lt;/p&gt;
@@ -103,8 +103,8 @@
         <description>&lt;p&gt;The Nintendo 3DS has a pretty decent &lt;a href=&quot;https://en.wikipedia.org/wiki/Homebrew_%28video_games%29&quot;&gt;homebrew software&lt;/a&gt; scene. People have been creating all manner of cool things, from small applications to emulators. When I bought a 3DS, naturally I had to get involved.&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/blackjack_1.png&quot; alt=&quot;Blackjack Screen 1&quot; /&gt;
-&lt;img src=&quot;/assets/blackjack_2.png&quot; alt=&quot;Blackjack Screen 2&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/blackjack_1.png&quot;&gt;&lt;img src=&quot;/assets/blackjack_1.png&quot; alt=&quot;Blackjack Screen 1&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/assets/blackjack_2.png&quot;&gt;&lt;img src=&quot;/assets/blackjack_2.png&quot; alt=&quot;Blackjack Screen 2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/keanutah/blackjack-3ds&quot;&gt;Blackjack 3DS&lt;/a&gt; is a script for &lt;a href=&quot;https://github.com/Rinnegatamante/lpp-3ds&quot;&gt;Lua Player Plus&lt;/a&gt;, a Lua interpreter that gives you simple access to almost all of the 3DS’s interfaces and services. This was my first foray into Lua, which I ended up liking quite a bit. The game is a basic blackjack game with an infinite deck, and all of the typical rules including splits, doubling down, surrender, and insurance. It also supports the 3D effect, and it’s pretty damn cool to see the cards slightly hover above the screen.&lt;/p&gt;
@@ -125,7 +125,7 @@
 &lt;p&gt;The biggest challenge was parsing the variety of inputs the tool can get. &lt;em&gt;1K1&lt;/em&gt;, &lt;em&gt;1.1k&lt;/em&gt;, and &lt;em&gt;1100&lt;/em&gt;, are all valid inputs for the same resistor value. When you add in extra decimals, zeros, and the optional tolerance portion, the input becomes tricky to sanitize!&lt;/p&gt;
 
 &lt;div class=&quot;image-container&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/resistor_calc_1.png&quot; alt=&quot;Resistor Calc Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/resistor_calc_1.png&quot;&gt;&lt;img src=&quot;/assets/resistor_calc_1.png&quot; alt=&quot;Resistor Calc Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;I intend to add a few more features to the page in the future, but for now it’s complete and useful for hobbyists / EE students.&lt;/p&gt;

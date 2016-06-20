@@ -75,7 +75,7 @@
 <p><a href="http://combo-caddy.s3-website-us-east-1.amazonaws.com/">Combo Caddy</a> is a simple mobile-friendly website that shouts boxing combos at you, for heavy bag work or other training. Much like <a href="/resistor-calculator/2016/03/16/resistor-calc-update.html">ResistorCalc</a>, it is a simple single page Javascript website, with nothing fancy behind the scenes. There is still plenty of work to be done. Right now the boxing “coach” is just myself doing a gruff voice into a headset microphone.</p>
 
 <div class="image-container">
-  <p><img src="/assets/combo_caddy_2.png" alt="ComboCaddy Screenshot" /></p>
+  <p><a href="/assets/combo_caddy_2.png"><img src="/assets/combo_caddy_2.png" alt="ComboCaddy Screenshot" /></a></p>
 </div>
 
 <p>So far this project has been a fun journey into the <a href="http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html">quirks of iOS HTML5 audio support</a>. Apple’s phones will only play audio if it was directly triggered by a user action. This means I need to reuse the same Javascript audio object by swapping out the source when needed. Unfortunately, iOS also seems incapable of caching more than one audio file at a time, so every time I swap the source, the file is fetched from the network, causing some extra delay. The solution to this will be to use an <a href="http://www.ibm.com/developerworks/library/wa-ioshtml5/index.html#audiosprites">audio sprite</a>, something I will get to once I have a more “professional sounding” voice coach :).</p>

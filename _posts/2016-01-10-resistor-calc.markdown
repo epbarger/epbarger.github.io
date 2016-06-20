@@ -10,7 +10,7 @@ categories: resistor-calculator
 The biggest challenge was parsing the variety of inputs the tool can get. *1K1*, *1.1k*, and *1100*, are all valid inputs for the same resistor value. When you add in extra decimals, zeros, and the optional tolerance portion, the input becomes tricky to sanitize!
 
 <div class='image-container'>
-![Resistor Calc Screenshot](/assets/resistor_calc_1.png)
+[![Resistor Calc Screenshot](/assets/resistor_calc_1.png)](/assets/resistor_calc_1.png)
 </div>
 
 I intend to add a few more features to the page in the future, but for now it's complete and useful for hobbyists / EE students.
