@@ -543,3 +543,9 @@ h1 {
   vertical-align: baseline;
   position: relative;
   top: 1px; }
+
+a, a:visited {
+  color: #3991ff; }
+
+a:hover {
+  color: #8fc1ff; }
