@@ -52,15 +52,6 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
-.sneaky-footer{
-  text-align: center;
-  color: white;
-  cursor:default;
-  a {
-    color: white;
-  }
-}
-
 .site-header{
   background-color: #3991ff;
   border-bottom: 1px solid #424242;
@@ -113,7 +104,7 @@ a.site-title, a.site-title:visited {
 
 .site-nav .page-link {
   color: white;
-  // font-size: 14px;
+  font-size: 14px;
 }
 
 .trigger span {
@@ -160,11 +151,11 @@ h1 {
 }
 
 .icon > svg {
-  width: 14px;
-  height: 14px;
+  width: 13px;
+  height: 13px;
   vertical-align: baseline;
   position: relative;
-  top: 1px;
+  top: 1.2px;
 }
 
 a, a:visited {
