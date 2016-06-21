@@ -532,11 +532,11 @@ h1 {
   text-align: right; }
 
 .icon > svg {
-  width: 13px;
-  height: 13px;
+  width: 14px;
+  height: 14px;
   vertical-align: baseline;
   position: relative;
-  top: 1.2px; }
+  bottom: -2px; }
 
 a, a:visited {
   color: #3991ff; }
