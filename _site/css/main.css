@@ -198,7 +198,7 @@ pre {
       .site-nav .trigger {
         clear: both;
         display: none; }
-      .site-nav:hover .trigger {
+      .site-nav.hover .trigger {
         display: block;
         padding-bottom: 5px; }
       .site-nav .page-link {
