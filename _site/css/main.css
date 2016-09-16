@@ -458,7 +458,8 @@ pre {
 
 .site-header {
   background-color: #3991ff;
-  border-bottom: 1px solid #424242; }
+  border-bottom: 1px solid #424242;
+  border-top: none; }
 
 .trigger {
   background-color: #3991ff; }
@@ -487,8 +488,9 @@ img {
   font-size: 28px;
   font-weight: 600; }
 
-a.site-title, a.site-title:visited {
-  color: white; }
+a.site-title, a.site-title:visited, a.site-title:hover {
+  color: white;
+  text-decoration: none; }
 
 .site-nav {
   border-color: #424242; }
@@ -543,3 +545,15 @@ a, a:visited {
 
 a:hover {
   color: #8fc1ff; }
+
+span.theme-switcher {
+  width: 50px;
+  height: 25px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer; }
+
+body.theme-inverse {
+  color: #e9e9e9;
+  background-color: #212121; }

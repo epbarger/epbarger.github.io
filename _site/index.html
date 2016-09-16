@@ -18,6 +18,26 @@
       $('.site-nav').click(function(){
         $(this).toggleClass('hover')
       });
+
+      $('.theme-switcher').click(function(e){
+        e.preventDefault()
+        $body = $('body')
+        $('body').toggleClass('theme-inverse')
+        if ($body.hasClass('theme-inverse')){
+          localStorage.theme = 'theme-inverse'
+        } else {
+          localStorage.theme = 'theme-default'
+        }
+      })
+
+      var body = document.getElementsByTagName("body")[0];
+      body.className = localStorage.theme;
+
+      // var inverseThemeBtn = document.querySelectorAll(".theme-select.theme-inverse")[0];
+      // inverseThemeBtn.addEventListener("click", function (e){ body.className = 'theme-inverse'; localStorage.theme = 'theme-inverse'}, false);
+
+      // var defaultThemeBtn = document.querySelectorAll(".theme-select.theme-default")[0];
+      // defaultThemeBtn.addEventListener("click", function (e){ body.className = ''; localStorage.theme = ''}, false);
     });
   </script> 
 
@@ -40,6 +60,7 @@
   <div class="wrapper">
 
     <a class="site-title" href="/combo-caddy/2016/06/08/combo-caddy.html">Evan Barger</a>
+    <span class='theme-switcher'></span>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -65,7 +86,6 @@
     </nav>
 
   </div>
-
 </header>
 
 
