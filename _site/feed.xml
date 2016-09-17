@@ -6,9 +6,28 @@
 </description>
     <link>https://epbarger.github.io/</link>
     <atom:link href="https://epbarger.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Sep 2016 17:41:05 -0400</pubDate>
-    <lastBuildDate>Fri, 16 Sep 2016 17:41:05 -0400</lastBuildDate>
+    <pubDate>Sat, 17 Sep 2016 13:53:53 -0400</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2016 13:53:53 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Budgeting Prototype - Pace Your Cash</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://budget-app-test.herokuapp.com&quot;&gt;Pace Your Cash&lt;/a&gt; is a basic budgeting application. It lets you set up monthly budgets for whatever categories you like. As you spend money, you add each transaction to the appropriate category. One cool feature is a bar chart that shows how much money you &lt;em&gt;should&lt;/em&gt; have spent so far, if you were to spend your budget evenly throughout the month. This is a way for you to mentally “pace” yourself, thus the name of the app.&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;/assets/budget_app.png&quot;&gt;&lt;img src=&quot;/assets/budget_app.png&quot; alt=&quot;ComboCaddy Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The app is just a basic &lt;a href=&quot;http://www.rubyonrails.org&quot;&gt;Rails&lt;/a&gt; stack, running on &lt;a href=&quot;https://www.heroku.com&quot;&gt;Heroku&lt;/a&gt;. Nothing too fancy! My goal was to make a budgeting tool I would use day to day, and expand it if it was working for me. So far, so good! I’ve been using it consistently for 3 months. While there are plenty of very similar budgeting apps out there, something about using my own has helped me be a little bit more conscious about my spending.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 Sep 2016 02:00:00 -0400</pubDate>
+        <link>https://epbarger.github.io/budget-app/2016/09/17/budget-app-pace.html</link>
+        <guid isPermaLink="true">https://epbarger.github.io/budget-app/2016/09/17/budget-app-pace.html</guid>
+        
+        
+        <category>budget-app</category>
+        
+      </item>
     
       <item>
         <title>Combo Caddy - Javascript Boxing Coach</title>
