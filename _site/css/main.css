@@ -561,3 +561,10 @@ body.theme-inverse {
 .pnf {
   text-align: center;
   font-size: 56px; }
+
+@media all and (max-width: 699px) {
+  .pnf {
+    font-size: 44px; } }
+@media all and (max-width: 369px) {
+  .pnf {
+    font-size: 36px; } }
