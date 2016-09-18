@@ -557,3 +557,7 @@ span.theme-switcher {
 body.theme-inverse {
   color: #e9e9e9;
   background-color: #212121; }
+
+.pnf {
+  text-align: center;
+  font-size: 56px; }
