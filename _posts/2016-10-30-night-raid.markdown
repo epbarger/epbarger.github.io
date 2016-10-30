@@ -10,7 +10,8 @@ A few months ago I discovered the existence of a really cool piece of hardware c
 <div class='image-container'>
 <video muted controls loop>
   <source src="/assets/nightraid480.webm" type="video/webm">
-  Your browser does not support my webm video :(
+  <source src="/assets/nightraid480.mp4" type="video/mp4">
+  Your browser does not support my awesome Night Raid video :(
 </video> 
 </div>
 
