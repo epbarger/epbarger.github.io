@@ -11,7 +11,7 @@ I recently discovered the existence of a really cool piece of hardware called th
 [![Night Raid for Arduboy](/assets/nightraidardu.jpg)](/assets/nightraidardu.jpg)
 </div>
 <div class='image-container' style='display:inline-block;width:70%;float:right;'>
-<video width='100%' muted controls loop>
+<video width='100%' preload='metadata' muted controls loop>
   <source src="/assets/nightraid480.webm" type="video/webm">
   <source src="/assets/nightraid480.mp4" type="video/mp4">
   Your browser does not support my awesome Night Raid video :(
