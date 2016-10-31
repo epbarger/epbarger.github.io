@@ -7,7 +7,10 @@ categories: night-raid
 
 I recently discovered the existence of a really cool piece of hardware called the [Arduboy](http://www.arduboy.com). The Arduboy consists of an Arduino-compatible ATmega32u4 microcontroller, tiny OLED display, nice clicky buttons, and a rechargeable battery, all wrapped up in a well built package that resembles a downsized Gameboy. Writing for it is very straightforward, as the company provides a nice [open source library](https://asmcbain.net/projects/arduboy/docs/1.1/api/index.html) to interact with the hardware.
 
-<div class='image-container'>
+<div class='image-container' style='width:29.5%;display:inline-block;'>
+[![Night Raid for Arduboy](/assets/nightraidardu.jpg)](/assets/nightraidardu.jpg)
+</div>
+<div class='image-container' style='display:inline-block;width:70%;float:right;'>
 <video width='100%' muted controls loop>
   <source src="/assets/nightraid480.webm" type="video/webm">
   <source src="/assets/nightraid480.mp4" type="video/mp4">
