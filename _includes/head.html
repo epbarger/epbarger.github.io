@@ -16,10 +16,9 @@
         $(this).toggleClass('hover')
       });
 
-      $('.theme-switch').click(function(e){
+      $('.theme-switcher').click(function(e){
         e.preventDefault()
         $body = $('body')
-        $this = $(this)
         $('body').toggleClass('theme-inverse')
         if ($body.hasClass('theme-inverse')){
           localStorage.theme = 'theme-inverse'
