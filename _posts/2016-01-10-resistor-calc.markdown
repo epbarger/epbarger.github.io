@@ -2,7 +2,7 @@
 layout: post
 title:  "Resistor Calculator"
 date:   2016-01-10 21:08:58 -0500
-categories: resistor-calculator
+categories: Javascript
 ---
 
 [ResistorCalc.net](http://www.resistorcalc.net) is a simple tool that converts between four-band resistor color codes and their value. The page is written in Javascript, with a little jQuery for DOM manipulation. It also works quite well on phones thanks to the powers of [everyone's favorite responsive CSS framework](http://getbootstrap.com).

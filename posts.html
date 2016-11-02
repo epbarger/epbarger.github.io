@@ -4,20 +4,25 @@ title: All Posts
 permalink: /posts/
 ---
 
-<header class='post-header'>
-
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title" >All Posts<small>   <span class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">rss</a></span> </small></h1>
+    <h1 class="post-title" >{{page.title}}<small>   <span class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">rss</a></span> </small></h1>
   </header>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for category in site.categories reversed %}
+    <ul class="post-list">
+      <span class="post-meta category-header">{{ category | first }}</span>
+      {% for posts in category %}
+        {% for post in posts %}
+          {% if post.url %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • </span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
 
 </div>

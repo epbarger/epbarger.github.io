@@ -2,7 +2,7 @@
 layout: post
 title:  "Night Raid - Missile Command Clone for Arduboy"
 date:   2016-10-30 01:00:00 -0500
-categories: night-raid
+categories: Games
 ---
 
 I recently discovered the existence of a really cool piece of hardware called the [Arduboy](http://www.arduboy.com). The Arduboy consists of an Arduino-compatible ATmega32u4 microcontroller, tiny OLED display, nice clicky buttons, and a rechargeable battery, all wrapped up in a well built package that resembles a downsized Gameboy. Writing for it is very straightforward, as the company provides a nice [open source library](https://asmcbain.net/projects/arduboy/docs/1.1/api/index.html) to interact with the hardware.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Combo Caddy - Javascript Boxing Coach"
 date:   2016-06-08 12:00:00 -0500
-categories: combo-caddy
+categories: Javascript
 ---
 
 Learning how to box has had me feeling just a bit too cool, so I had to find a way to nerd it up.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Budgeting Prototype - Pace Your Cash"
 date:   2016-09-17 01:00:00 -0500
-categories: budget-app
+categories: Ruby
 ---
 
 [Pace Your Cash](http://budget-app-test.herokuapp.com) is a basic budgeting application. It lets you set up monthly budgets for whatever categories you like. As you spend money, you add each transaction to the appropriate category. One cool feature is a bar chart that shows how much money you _should_ have spent so far, if you were to spend your budget evenly throughout the month. This is a way for you to mentally "pace" yourself, thus the name of the app.
