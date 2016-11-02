@@ -12,7 +12,8 @@ permalink: /posts/
 
   {% for category in site.categories reversed %}
     <ul class="post-list">
-      <span id="{{ category | first }}" name="{{ category | first }}" class="post-meta category-header">{{ category | first }}</span>
+      <div id="{{ category | first }}" name="{{ category | first }}"></div>
+      <span class="post-meta category-header">{{ category | first }}</span>
       {% for posts in category %}
         {% for post in posts %}
           {% if post.url %}
