@@ -7,7 +7,7 @@ categories: Javascript
 
 Learning how to box has had me feeling just a bit too cool, so I had to find a way to nerd it up.
 
-Combo Caddy is a simple mobile-friendly website that shouts boxing combos at you, for heavy bag work or other training. Much like [ResistorCalc](/resistor-calculator/2016/03/16/resistor-calc-update.html), it is a simple single page Javascript website, with nothing fancy behind the scenes. There is still plenty of work to be done. Right now the boxing "coach" is just myself doing a gruff voice into a headset microphone.
+Combo Caddy is a simple mobile-friendly website that shouts boxing combos at you, for heavy bag work or other training. Much like [ResistorCalc](/javascript/2016/03/16/resistor-calc-update.html), it is a simple single page Javascript website, with nothing fancy behind the scenes. There is still plenty of work to be done. Right now the boxing "coach" is just myself doing a gruff voice into a headset microphone.
 
 <div class='image-container'>
 [![ComboCaddy Screenshot](/assets/combo_caddy_2.png)](/assets/combo_caddy_2.png)
