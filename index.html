@@ -7,7 +7,7 @@ layout: default
     {% assign posts = site.posts | sort: "featured-sort" %}
     {% for post in posts %}
       {% if post.featured %}
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-6 col-xs-12" style='padding: 0;'>
           <div style="padding: 10px">
             <a href='{{ post.url }}'>
               <span class='featured-image' style="background-image: url('{{ post.featured-image }}')">
