@@ -3,6 +3,10 @@ layout: post
 title:  "Programmable Stompbox Computer Keyboard"
 date:   2017-06-11 00:00:00 -0500
 categories: Electronics
+featured: true
+featured-headline: "Stompbox Keyboard"
+featured-image: "/assets/stomp_close.jpg"
+featured-sort: 1
 ---
 
 This latest project is a programmable computer keyboard, with buttons you press with your feet. I built it with parts that are commonly used in guitar effect pedals and other music equipment.

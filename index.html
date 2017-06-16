@@ -3,15 +3,25 @@ layout: default
 ---
 
 <div class="home">
-  {% for post in site.posts limit:1 %}
-    <!-- <span class="post-meta">Latest Post</time></span> -->
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
-      <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
-    </header>
+  <div class="row">
+    {% assign posts = site.posts | sort: "featured-sort" %}
+    {% for post in posts %}
+      {% if post.featured %}
+        <div class="col-sm-6 col-xs-12">
+          <div style="padding: 20px">
+            <a href='{{ post.url }}'>
+              <span class='featured-image' style="background-image: url('{{ post.featured-image }}')">
+                <span class='featured-headline'>{{ post.featured-headline }}</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 
-    <div class="post-content" itemprop="articleBody">
-      {{ post.content }}
-    </div>
-  {% endfor %}
+  <div class="page-navigation">
+    <span class="prev"></span>
+    <a class="next" href="posts/">All Posts &raquo;</a>
+  </div>
 </div>
