@@ -3,7 +3,7 @@ layout: post
 title:  "Budgeting Prototype - Pace Your Cash"
 date:   2016-09-17 01:00:00 -0500
 categories: Ruby
-featured: true
+featured: false
 featured-headline: Budgeting Web App Prototype
 featured-image: "/assets/budget_app.png"
 featured-sort: 4
