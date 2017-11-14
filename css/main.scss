@@ -57,9 +57,22 @@ body {
   background-color: rgb(33, 33, 33);
 }
 
+.wrapper {
+  max-width: calc(1080px - (30px * 2));
+}
+
+.page-content {
+  padding: 50px 0;
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .site-header {
-  // background-color: #163e71;
-  // border-bottom: 1px solid black;
   border-top: none;
   border-bottom: none;
   .wrapper {
@@ -67,9 +80,18 @@ body {
   }
 }
 
-.trigger {
-  // background-color: #163e71;
+.site-footer {
+  border-top: none;
+  border-bottom: none;
+  padding: 0;
+  .wrapper {
+    border-top: 1px dashed #828282;
+    .footer-content{
+      padding: 15px;
+    }
+  }
 }
+
 
 .rss-subscribe {
   font-size:0.65em;
@@ -81,8 +103,6 @@ body {
 
 img, video {
   border-radius: 3px;
-  // margin:px 5px;
-  // max-width:95%;
   border: 1px solid #EEE;
 }
 
@@ -227,7 +247,7 @@ code, pre {
 }
 
 .featured-image {
-  height: 250px;
+  height: 280px;
   background-size: cover;
   background-position: left center;
   padding: 5px; 
