@@ -3,6 +3,10 @@ layout: post
 title:  "Sunrise LED Controller"
 date:   2016-12-15 00:00:00 -0500
 categories: Electronics
+featured: true
+featured-headline: "Sunrise LED Controller"
+featured-image: "/assets/ledcontroller_2.jpg"
+featured-sort: 4
 ---
 
 I've always wanted to try one of those [alarm clocks that wake you up with light](http://www.usa.philips.com/c-p/HF3520_60/wake-up-light). Instead of buying one like a normal person, I decided to build one myself! Hooray!

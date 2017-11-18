@@ -14,8 +14,8 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #e9e9e9;
+$background-color: rgb(33, 33, 33);
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -51,11 +51,6 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
-
-body {
-  color: #e9e9e9;
-  background-color: rgb(33, 33, 33);
-}
 
 .wrapper {
   max-width: calc(1080px - (30px * 2));
@@ -247,7 +242,7 @@ code, pre {
 }
 
 .featured-image {
-  height: 280px;
+  height: 230px;
   background-size: cover;
   background-position: left center;
   padding: 5px; 

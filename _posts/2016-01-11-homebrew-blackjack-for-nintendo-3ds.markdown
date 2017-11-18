@@ -6,7 +6,7 @@ categories: Games
 featured: true
 featured-headline: "Blackjack for Nintendo 3DS"
 featured-image: /assets/blackjack_video_screenshot.jpg
-featured-sort: 3
+featured-sort: 6
 ---
 
 The Nintendo 3DS has a pretty decent [homebrew software](https://en.wikipedia.org/wiki/Homebrew_%28video_games%29) scene. People have been creating all manner of cool things, from small applications to emulators. When I bought a 3DS, naturally I had to get involved.
