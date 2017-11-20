@@ -5,7 +5,7 @@ date:   2016-04-24 00:00:00 -0500
 categories: Ruby
 ---
 
-[DailyWiki](https://gentle-tundra-91628.herokuapp.com/) is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I've always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.
+[DailyWiki](https://daily-wiki.herokuapp.com/) is a simple page that simply links 30 random Wikipedia articles each day, refreshing at midnight. I've always been a fan of random Wikipedia browsing, so this is my attempt to streamline that process a tiny bit.
 
 <div class='image-container' style='width:49%;display:inline-block;'>
 [![DailyWiki Light Theme](/assets/dailywiki_1.png)](/assets/dailywiki_1.png)
