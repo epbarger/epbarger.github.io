@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "ManyKey Project - Macro Keyboard Revisted"
+date:   2018-01-04 00:00:00 -0500
+categories: Electronics
+featured: true
+featured-headline: "ManyKey Project"
+featured-image: "/assets/manykey_cable.jpg"
+featured-sort: 1
+---
+
+I'm happy to announce that I've finally finished packaging up [my programmable stompbox keyboard project](/electronics/2017/06/11/stompbox-keyboard.html) into something easier for others to use. I'm calling the project [ManyKey](https://www.manykey.org), and have launched a [small website](https://www.manykey.com) to host it!
+
+<div class='image-container no-border' style='width:100%;display:inline-block;'>
+[![Stompbox Keyboard Pedal](/assets/manykeylogo.png)](https://www.manykey.org)
+</div>
+
+The Arduino firmware was rewritten from scratch to be a lot more flexible. There is no limit on the number of switches you can have now, and no limit to how many characters you can have per switch. This is enabled by a much more solid serial protocol, byte based this time around. You can check out the firmware and protocol on [GitHub](https://github.com/ManyKeyOrg/manykey_firmware_arduino)
+
+<div class='image-container' style='width:27%;display:inline-block;'>
+[![Keyboard Closeup](/assets/manykey_cable.jpg)](/assets/stomp_close.jpg)
+</div>
+<div class='image-container' style='width:70%;display:inline-block;'>
+[![Keyboard Editor](/assets/manykey.jpg)](/assets/stomp_editor.png)
+</div>
+
+I also rewrote the GUI program from the original project. I still chose to use Python, but I opted to try [wxPython](https://wxpython.org/) instead of [Tkinter](https://wiki.python.org/moin/TkInter) for the GUI toolkit. This turned out to be a great choice - I much preferred working with wxPython. The way layout works with wxPython clicked with me better, and I found it a bit easier to get the design I wanted. It also includes [Scintilla](http://scintilla.org/), which came in handy when I realized I wanted to make use of a fancy textbox.
+
+The quality of the code I produced was much higher than the first iteration, though definitely not perfect. Still, I was a lot happier with the final product this time around. 
+
+<div class='image-container' style='width:100%;display:inline-block;'>
+[![Stompbox Keyboard Pedal](/assets/manykey_writer.png)](/assets/manykey_writer.png)
+</div>
+
+Packaging was done with the [PyInstaller Project](http://www.pyinstaller.org/), which made it fairly simple to product a Mac app and a Windows exe.
+
+If you think you might be able to make use a of a macro keyboard like this, I threw together a [basic tutorial](https://www.manykey.org/tutorial.html) on how to build one for yourself!

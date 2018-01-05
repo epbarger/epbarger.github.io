@@ -101,6 +101,10 @@ img, video {
   border: 1px solid #EEE;
 }
 
+.image-container.no-border img{
+  border: none;
+}
+
 .image-container{
   text-align:center;
   margin: 30px 0px;

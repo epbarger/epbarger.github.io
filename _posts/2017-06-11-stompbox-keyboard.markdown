@@ -3,7 +3,7 @@ layout: post
 title:  "Programmable Stompbox Computer Keyboard"
 date:   2017-06-11 00:00:00 -0500
 categories: Electronics
-featured: true
+featured: false
 featured-headline: "Stompbox Keyboard"
 featured-image: "/assets/stomp_close.jpg"
 featured-sort: 1
