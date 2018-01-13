@@ -169,4 +169,8 @@ $(document).ready(function(){
     canvas.height = h;
     reset();
   });
+
+  setInterval(function(){
+    updateFavicon();
+  }, 500);
 });
