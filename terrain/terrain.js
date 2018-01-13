@@ -144,6 +144,7 @@ $(document).ready(function(){
 
   /* Bootup */
 
+  console.log("check me out at https://github.com/epbarger/terrain")
   initTerrain();
   runAnimation();
   updateFavicon();
