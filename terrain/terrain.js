@@ -2,14 +2,16 @@ $(document).ready(function(){
   /* Setup */
 
   let canvas = document.getElementById("terrain");
-  let favicon = new Favico();
+  let favicon = document.getElementById("favicon");
   let w = window.innerWidth;
   let h = window.innerHeight;
   let ctx = canvas.getContext("2d");
-  let background = randomColor();
+  let backgroundColor = null;
   canvas.width = w;
   canvas.height = h;
-  let speedMultiplier = 4;
+  let speedMultiplier = 2;
+  let lastTime = null;
+  let offsetAdjust = 1;
   let paused = false;
   let terrainD = null;
   let terrainC = null;
@@ -43,7 +45,7 @@ $(document).ready(function(){
         this.offset = 0;
       },
       move: function() {
-        this.offset -= speed;
+        this.offset -= (speed * offsetAdjust);
         if (this.offset < -w) {
           this.swapAndRegen();
         }
@@ -69,7 +71,7 @@ $(document).ready(function(){
 
   function drawTerrain(terrain){
     ctx.fillStyle = terrain.color;
-    ctx.strokeStyle = terrain.color; 
+    ctx.strokeStyle = terrain.color;
     drawPoints(terrain.pointsOne, terrain.offset);
     drawPoints(terrain.pointsTwo, terrain.offset + w - 1);
   }
@@ -99,18 +101,24 @@ $(document).ready(function(){
     return color;
   }
 
-  function runAnimation(){
+  function runAnimation(time){
     if (!paused){
+      if (lastTime) {
+        offsetAdjust = (time - lastTime) / (1/60*1000);
+      }
       renderTerrain();
     }
+    lastTime = time;
     window.requestAnimationFrame(runAnimation);
   }
 
-  function renderTerrain(){
+  function renderTerrain(drawBackground){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = backgroundColor;
-    ctx.rect(0, 0, canvas.width, canvas.height);
-    ctx.fill();
+    if (drawBackground){
+      ctx.fillStyle = backgroundColor;
+      ctx.rect(0, 0, canvas.width, canvas.height);
+      ctx.fill();
+    }
     terrainD.move();
     terrainC.move();
     terrainB.move();
@@ -118,26 +126,25 @@ $(document).ready(function(){
     drawTerrain(terrainD);
     drawTerrain(terrainC);
     drawTerrain(terrainB);
-    drawTerrain(terrainA); 
+    drawTerrain(terrainA);
   }
 
   function initTerrain(){
     backgroundColor = randomColor();
+    canvas.style.cssText = "background-color: " + backgroundColor + ";";
     terrainD = buildTerrain(randomColor(), {min: 0.25, max: 0.5}, 0.9, 200, 8, speedMultiplier * 1/20);
     terrainC = buildTerrain(randomColor(), {min: 0.5, max: 0.7}, 1, 120, 9, speedMultiplier * 1/7);
-    terrainB = buildTerrain(randomColor(), {min: 0.7, max: 0.8}, 1.2, 60, 12, speedMultiplier * 1/3);
-    terrainA = buildTerrain(randomColor(), {min: 0.8, max: 1.0}, 1.4, 20, 12, speedMultiplier * 1/1.2);
+    terrainB = buildTerrain(randomColor(), {min: 0.7, max: 0.8}, 1.2, 60, 10, speedMultiplier * 1/3);
+    terrainA = buildTerrain(randomColor(), {min: 0.8, max: 1.0}, 1.4, 20, 11, speedMultiplier * 1/1.2);
   }
 
   function updateFavicon(){
-    var img = new Image();
-    img.src = canvas.toDataURL(); 
-    favicon.image(img);    
+    favicon.href = canvas.toDataURL();
   }
 
   function reset(){
     initTerrain();
-    renderTerrain(); 
+    renderTerrain(true);
     updateFavicon();
   }
 
@@ -145,9 +152,8 @@ $(document).ready(function(){
   /* Bootup */
 
   console.log("check me out at https://github.com/epbarger/terrain")
-  initTerrain();
+  reset();
   runAnimation();
-  updateFavicon();
 
 
   /* Event binding */
@@ -169,8 +175,4 @@ $(document).ready(function(){
     canvas.height = h;
     reset();
   });
-
-  setInterval(function(){
-    updateFavicon();
-  }, 500);
 });
