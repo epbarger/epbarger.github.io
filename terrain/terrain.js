@@ -113,12 +113,9 @@ $(document).ready(function(){
   }
 
   function renderTerrain(drawBackground){
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    if (drawBackground){
-      ctx.fillStyle = backgroundColor;
-      ctx.rect(0, 0, canvas.width, canvas.height);
-      ctx.fill();
-    }
+    ctx.fillStyle = backgroundColor;
+    ctx.rect(0, 0, canvas.width, canvas.height);
+    ctx.fill();
     terrainD.move();
     terrainC.move();
     terrainB.move();
@@ -144,7 +141,7 @@ $(document).ready(function(){
 
   function reset(){
     initTerrain();
-    renderTerrain(true);
+    renderTerrain();
     updateFavicon();
   }
 
