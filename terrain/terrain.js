@@ -1,15 +1,16 @@
 $(document).ready(function(){
   /* Setup */
 
-  let canvas = document.getElementById("terrain");
-  let favicon = document.getElementById("favicon");
+  const canvas = document.getElementById("terrain");
+  const favicon = document.getElementById("favicon");
+  const ctx = canvas.getContext("2d");
+  const defaultSpeedMultiplier = 2;
   let w = window.innerWidth;
   let h = window.innerHeight;
-  let ctx = canvas.getContext("2d");
   let backgroundColor = null;
   canvas.width = w;
   canvas.height = h;
-  let speedMultiplier = 2;
+  let speedMultiplier = defaultSpeedMultiplier;
   let lastTime = null;
   let offsetAdjust = 1;
   let paused = false;
@@ -22,30 +23,31 @@ $(document).ready(function(){
   /* Functions */
 
   function buildTerrain(color, yRange, roughness, verticalDisplacement, iterations, speed){
-    let pointsOne = generatePoints(
+    let pointsCenter = generatePoints(
       {x: 0, y: randomInterval(h * yRange.min, h * yRange.max)},
       {x: w, y: randomInterval(h * yRange.min, h * yRange.max)},
       roughness, verticalDisplacement, iterations);
-    let pointsTwo = generatePoints(
-      {x: 0, y: pointsOne[pointsOne.length - 1].y},
+    let pointsRight = generatePoints(
+      {x: 0, y: pointsCenter[pointsCenter.length - 1].y},
       {x: w, y: randomInterval(h * yRange.min, h * yRange.max)},
       roughness, verticalDisplacement, iterations);
     return {
       color: color,
-      pointsOne: pointsOne,
-      pointsTwo: pointsTwo,
+      pointsCenter: pointsCenter,
+      pointsRight: pointsRight,
       offset: 0,
       speed: speed,
       swapAndRegen: function() {
-        this.pointsOne = this.pointsTwo
-        this.pointsTwo = generatePoints(
-          {x: 0, y: this.pointsOne[this.pointsOne.length - 1].y},
+        this.pointsLeft = this.pointsCenter;
+        this.pointsCenter = this.pointsRight;
+        this.pointsRight = generatePoints(
+          {x: 0, y: this.pointsCenter[this.pointsCenter.length - 1].y},
           {x: w, y: randomInterval(h * yRange.min, h * yRange.max)},
           roughness, verticalDisplacement, iterations);
-        this.offset = 0;
+          this.offset = 0;
       },
       move: function() {
-        this.offset -= (speed * offsetAdjust);
+        this.offset -= ((speedMultiplier * this.speed) * offsetAdjust);
         if (this.offset < -w) {
           this.swapAndRegen();
         }
@@ -72,14 +74,18 @@ $(document).ready(function(){
   function drawTerrain(terrain){
     ctx.fillStyle = terrain.color;
     ctx.strokeStyle = terrain.color;
-    drawPoints(terrain.pointsOne, terrain.offset);
-    drawPoints(terrain.pointsTwo, terrain.offset + w - 1);
+    drawPoints(terrain.pointsCenter, terrain.offset);
+    drawPoints(terrain.pointsRight, terrain.offset + w - 1);
   }
 
   function drawPoints(points, offset) {
     ctx.beginPath();  
     ctx.moveTo(points[0].x + offset, points[0].y);
-    points.forEach((point) => ctx.lineTo(point.x + offset, point.y));
+    for (let i = 0; i < points.length; i++ ){
+      let point = points[i];
+      if ((point.x + offset) > w) { break; }
+      ctx.lineTo(point.x + offset, point.y)
+    }
     ctx.stroke();
 
     ctx.lineTo(points[points.length - 1].x + offset, h);
@@ -128,11 +134,10 @@ $(document).ready(function(){
 
   function initTerrain(){
     backgroundColor = randomColor();
-    canvas.style.cssText = "background-color: " + backgroundColor + ";";
-    terrainD = buildTerrain(randomColor(), {min: 0.25, max: 0.5}, 0.9, 200, 8, speedMultiplier * 1/20);
-    terrainC = buildTerrain(randomColor(), {min: 0.5, max: 0.7}, 1, 120, 9, speedMultiplier * 1/7);
-    terrainB = buildTerrain(randomColor(), {min: 0.7, max: 0.8}, 1.2, 60, 10, speedMultiplier * 1/3);
-    terrainA = buildTerrain(randomColor(), {min: 0.8, max: 1.0}, 1.4, 20, 11, speedMultiplier * 1/1.2);
+    terrainD = buildTerrain(randomColor(), {min: 0.25, max: 0.5}, 0.9, 200, 8, 1/20);
+    terrainC = buildTerrain(randomColor(), {min: 0.5, max: 0.7}, 1, 120, 9, 1/7);
+    terrainB = buildTerrain(randomColor(), {min: 0.7, max: 0.8}, 1.2, 60, 10, 1/3);
+    terrainA = buildTerrain(randomColor(), {min: 0.8, max: 1.0}, 1.4, 20, 11, 1/1.2);
   }
 
   function updateFavicon(){
@@ -160,10 +165,18 @@ $(document).ready(function(){
   }); 
 
   $('body').keyup(function(e){
-    if(e.keyCode == 32){
+    if (e.keyCode == 32){
       paused = !paused;
+    } else if (e.keyCode == 39){
+      speedMultiplier = defaultSpeedMultiplier;
     }
   });
+
+  $('body').keydown(function(e){
+    if (e.keyCode == 39){
+      speedMultiplier = 200;
+    }
+  })
 
   $(window).on("resize", function(){
     w = window.innerWidth;

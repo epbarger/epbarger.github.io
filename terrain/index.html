@@ -6,12 +6,12 @@
     <link id="favicon" rel="icon" type="image/x-icon" />
     <style>
       html, body { margin: 0; padding: 0; overflow: hidden; }
-      canvas { cursor: pointer; }
+      canvas { cursor: pointer; position: absolute; top: 0; }
     </style>
     <script type="text/javascript" src="jquery-3.2.1.slim.min.js"></script>
     <script type="text/javascript" src="terrain.js"></script>
   </head>
   <body>
-    <canvas id="terrain" width="100" height="100"></canvas>
+    <canvas id="terrain" width="100" height="100" moz-opaque></canvas>
   </body>
 </html>
