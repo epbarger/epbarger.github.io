@@ -141,7 +141,7 @@ $(document).ready(function(){
   }
 
   function updateFavicon(){
-    favicon.href = canvas.toDataURL();
+    if (favicon) { favicon.href = canvas.toDataURL(); }
   }
 
   function reset(){

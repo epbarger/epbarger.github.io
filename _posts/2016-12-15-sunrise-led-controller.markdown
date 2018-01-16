@@ -3,7 +3,7 @@ layout: post
 title:  "Sunrise LED Controller"
 date:   2016-12-15 00:00:00 -0500
 categories: Electronics
-featured: true
+featured: false
 featured-headline: "Sunrise LED Controller"
 featured-image: "/assets/ledcontroller_2.jpg"
 featured-sort: 4
