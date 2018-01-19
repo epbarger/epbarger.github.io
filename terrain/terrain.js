@@ -83,8 +83,8 @@ $(document).ready(function(){
     ctx.moveTo(points[0].x + offset, points[0].y);
     for (let i = 0; i < points.length; i++ ){
       let point = points[i];
-      if ((point.x + offset) > w) { break; }
       ctx.lineTo(point.x + offset, point.y)
+      if ((point.x + offset) > w) { break; }
     }
     ctx.stroke();
 
@@ -141,7 +141,9 @@ $(document).ready(function(){
   }
 
   function updateFavicon(){
-    if (favicon) { favicon.href = canvas.toDataURL(); }
+    if (favicon) {
+      favicon.href = canvas.toDataURL();
+    }
   }
 
   function reset(){
