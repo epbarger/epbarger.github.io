@@ -9,6 +9,8 @@ featured-image: "/assets/manykey_cable.jpg"
 featured-sort: 1
 ---
 
+**Update** - ManyKey was featured on the Hackaday blog, [check it out](https://hackaday.com/2018/01/19/a-keyboard-to-stomp-on/)!
+
 I'm happy to announce that I've finally finished packaging up [my programmable stompbox keyboard project](/electronics/2017/06/11/stompbox-keyboard.html) into something easier for others to use. I'm calling the project [ManyKey](https://www.manykey.org), and have launched a [small website](https://www.manykey.com) to host it!
 
 <div class='image-container no-border' style='width:100%;display:inline-block;'>
@@ -35,3 +37,4 @@ The quality of the code I produced was much higher than the first iteration, tho
 Packaging was done with the [PyInstaller Project](http://www.pyinstaller.org/), which made it fairly simple to produce a Mac app and a Windows exe.
 
 If you think you might be able to make use a of a macro keyboard like this, I threw together a [basic tutorial](https://www.manykey.org/tutorial.html) on how to build one for yourself!
+
