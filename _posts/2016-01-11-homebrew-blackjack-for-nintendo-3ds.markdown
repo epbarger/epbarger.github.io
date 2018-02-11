@@ -3,7 +3,7 @@ layout: post
 title:  "Homebrew Blackjack for Nintendo 3DS"
 date:   2016-01-11 01:00:00 -0500
 categories: Games
-featured: true
+featured: false
 featured-headline: "Blackjack for Nintendo 3DS"
 featured-image: /assets/blackjack_video_screenshot.jpg
 featured-sort: 6
