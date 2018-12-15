@@ -6,7 +6,7 @@ categories: Electronics
 featured: true
 featured-headline: "ManyKey Project"
 featured-image: "/assets/manykey_cable.jpg"
-featured-sort: 1
+featured-sort: 2
 ---
 
 **Update** - ManyKey was featured on the Hackaday blog, [check it out](https://hackaday.com/2018/01/19/a-keyboard-to-stomp-on/)!

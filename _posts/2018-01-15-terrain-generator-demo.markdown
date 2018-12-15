@@ -6,7 +6,7 @@ categories: Javascript
 featured: true
 featured-headline: "Random Terrain Demo"
 featured-image: "/assets/terrain.png"
-featured-sort: 4
+featured-sort: 6
 ---
 
 Full screen version [here](/terrain/). Click to regenerate, space to pause, right arrow to fast-forward.

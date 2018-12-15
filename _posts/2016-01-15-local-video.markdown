@@ -6,10 +6,10 @@ categories: Ruby
 featured: true
 featured-headline: "Local YouTube Video Finder"
 featured-image: /assets/local_video.png
-featured-sort: 5
+featured-sort: 4
 ---
 
-[Local Video](https://local-video.herokuapp.com) is a simple Ruby on Rails application I built that uses YouTube's API to pull videos that it has tagged as being near your coordinates. I'm not certain how YouTube classifies the video locations, but from what I've seen it's likely to be some combination of upload location and possibly video metadata. Either way, this tool tends to find some cool videos shot locally to you (and a lot of apartment listing videos as well). 
+Local Video is a simple Ruby on Rails application I built that uses YouTube's API to pull videos that it has tagged as being near your coordinates. I'm not certain how YouTube classifies the video locations, but from what I've seen it's likely to be some combination of upload location and possibly video metadata. Either way, this tool tends to find some cool videos shot locally to you (and a lot of apartment listing videos as well). 
 
 <div class='image-container'>
 [![Local Video Screenshot](/assets/local_video.png)](/assets/local_video.png)

@@ -3,10 +3,6 @@ layout: post
 title:  "Endless Archery - A Pico-8 Game"
 date:   2018-02-09 00:00:00 -0500
 categories: Games
-featured: true
-featured-headline: "Endless Archery"
-featured-image: "/assets/endless_archery.png"
-featured-sort: 3
 ---
 
 [Endless Archery](https://epbarger.itch.io/endless-archery) is an arcade game I wrote for the [Pico-8](https://www.lexaloffle.com/pico-8.php) fantasy console. Check it out on [itch.io](https://epbarger.itch.io/endless-archery)!
