@@ -3,7 +3,7 @@ layout: post
 title:  "Local Video - YouTube From Your Location"
 date:   2016-01-15 17:29:00 -0500
 categories: Ruby
-featured: true
+featured: false
 featured-headline: "Local YouTube Video Finder"
 featured-image: /assets/local_video.png
 featured-sort: 4
