@@ -5,9 +5,9 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-      {% if page.categories %} • <span class="category-header" itemprop="category" itemscope ><a href="/posts#{{ page.categories.first }}">{{ page.categories.first }}</a></span>{% endif %}
+    <p class="post-meta" style='color: white'>
+      <time style='font-style: italic; color: #828282;' datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      {% if page.categories %} / <span class="category-header" itemprop="category" itemscope ><a href="/posts#{{ page.categories.first }}">{{ page.categories.first }}</a></span>{% endif %}
     </p>
   </header>
 

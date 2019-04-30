@@ -92,10 +92,6 @@ article {
   font-size:0.65em;
 }
 
-.trigger span {
-  color: black;
-}
-
 img, video {
   border-radius: 3px;
   border: 1px solid #EEE;
@@ -176,7 +172,7 @@ a.site-title, a.site-title:visited, a.site-title:hover {
 }
 
 .icon > svg path {
-    fill: rgba(255, 255, 255, 0.55);
+  fill: #828282;//rgba(255, 255, 255, 0.55);
 }
 
 .post-title {
@@ -284,4 +280,17 @@ code, pre {
 .site-nav {
   background-color: rgb(33, 33, 33);
   border-color: white;
+}
+
+.backward { 
+   display: inline-block;
+  -moz-transform: scale(-1, 1); 
+  -webkit-transform: scale(-1, 1);  
+  transform: scale(-1, 1); 
+} 
+
+.col-xs-1-plus {
+  -ms-flex-preferred-size: 10.33333333%;
+  flex-basis: 10.33333333%;
+  max-width: 10.33333333%;
 }

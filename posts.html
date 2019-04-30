@@ -17,7 +17,7 @@ permalink: /posts/
         {% for post in posts %}
           {% if post.url %}
             <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • </span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <span class="post-meta" style='font-style: italic;'>{{ post.date | date: "%b %-d, %Y" }}</span> / <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </li>
           {% endif %}
         {% endfor %}
