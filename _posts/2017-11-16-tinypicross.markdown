@@ -3,7 +3,7 @@ layout: post
 title:  "TinyPicross - Picross for Arduboy"
 date:   2017-11-16 00:00:00 -0500
 categories: Games
-featured: true
+featured: false
 featured-headline: "TinyPicross for Arduboy"
 featured-image: "/assets/tinypicross_2.jpg"
 featured-sort: 5
