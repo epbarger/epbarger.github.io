@@ -5,7 +5,6 @@
       <a class="site-title" href="{{ site.url }}">
         evan_barger
       </a>
-
       <nav class="site-nav">
         <a href="#" class="menu-icon">
           <svg viewBox="0 0 18 15">
@@ -17,17 +16,14 @@
 
         <div class="trigger">
           <a class='page-link' href="/posts/">All Posts</a>
+          <span class='page-link page-link-divider'>/</span>
           {% include icon-github.html username=site.github_username %}
           {% include icon-itchio.html username=site.itchio_username %}
+          {% include icon-linkedin.html username=site.linkedin_username %}
           {% include icon-email.html link='mailto:epbarger@gmail.com' %}
         </div>
       </nav>
     </div>
-    <div style="clear: both; font-size: 14px; font-style: italic; color: #828282; margin-left: 10px; position: relative; top: -14px;">
-      <span class='backward'>⤴</span>
-      <span style="top: 5px; position: relative;">
-        boston-area software developer and electronics hobbyist
-      </span>
-    </div>
+
   </div>
 </header>

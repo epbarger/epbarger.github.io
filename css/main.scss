@@ -294,3 +294,17 @@ code, pre {
   flex-basis: 10.33333333%;
   max-width: 10.33333333%;
 }
+
+.page-link.page-link-divider {
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  color: gray;
+  font-family: monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .page-link.page-link-divider {
+    display: none;
+  }
+}
