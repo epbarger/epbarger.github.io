@@ -18,7 +18,7 @@ Last weekend I participated in Ludum Dare 44. [Ludum Dare](https://ldjam.com/eve
 The game I build is called [NEXCIDIUM](https://epbarger.itch.io/nexcidium). It is a basic vertical shooter, where you play a drug traveling through a bloodstream in order to destroy the heart. I came up with a dark story to wrap the gameplay in, involving the government paying families to voluntarily terminate a loved one. The game is very short, taking about five minutes to complete, so if that sounds interesting, please check it out!
 
 <div class='image-container'>
-[![Endless Archery](/assets/nexcidium.png)](/assets/nexcidium.png)
+[![NEXCIDIUM](/assets/nexcidium.png)](/assets/nexcidium.png)
 </div>
 
 I picked [Pico-8](https://www.lexaloffle.com/pico-8.php) for this project, which I've used for a few other games in the past (namely the original [Endless Archery](/games/2018/02/09/endless-archery)). I wanted to use an engine that would give me an easy web export, as accessibility is important to ensuring your game gets sufficient feedback during the Ludum Dare rating period. Pico-8 is also just plain fun to work in!
