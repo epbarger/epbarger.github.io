@@ -3,7 +3,7 @@ layout: post
 title:  "Random Terrain Generator Demo"
 date:   2018-01-15 00:00:00 -0500
 categories: Javascript
-featured: true
+featured: false
 featured-headline: "Random Terrain Demo"
 featured-image: "/assets/terrain.png"
 featured-sort: 6

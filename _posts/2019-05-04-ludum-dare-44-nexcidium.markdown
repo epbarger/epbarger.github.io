@@ -3,7 +3,7 @@ layout: post
 title:  "Ludum Dare 44 - NEXCIDIUM"
 date:   2019-05-04 00:00:00 -0500
 categories: Games
-featured: true
+featured: false
 featured-headline: "Ludum Dare 44 - NEXCIDIUM"
 featured-image: "/assets/nexcidium.png"
 featured-sort: 5
