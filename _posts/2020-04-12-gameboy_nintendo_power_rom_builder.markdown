@@ -17,4 +17,4 @@ Until now, the only way to flash these cartridges with new games was to use a re
 [![Game Boy Nintendo Power ROM Builder](/assets/gbnp.png)](/assets/gbnp.png)
 </div>
 
-This website is a very simple [Vue](https://vuejs.org/) application. [Check out the source here](https://github.com/orangeglo/gbnp)!
+This website is a very simple [Vue](https://vuejs.org/) application. [Check it out here!](https://orangeglo.github.io/gbnp)!
