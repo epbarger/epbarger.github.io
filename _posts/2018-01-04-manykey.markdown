@@ -3,7 +3,7 @@ layout: post
 title:  "ManyKey Project - Macro Keyboard Revisted"
 date:   2018-01-04 00:00:00 -0500
 categories: Electronics
-featured: true
+featured: false
 featured-headline: "ManyKey Project"
 featured-image: "/assets/manykey_cable.jpg"
 featured-sort: 2
