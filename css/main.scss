@@ -56,6 +56,10 @@ $on-laptop:        800px;
   max-width: calc(1080px - (30px * 2));
 }
 
+h3 {
+  margin-top:45px;
+}
+
 .page-content {
   padding: 50px 0;
 }
@@ -176,7 +180,7 @@ a.site-title, a.site-title:visited, a.site-title:hover {
 }
 
 .post-title {
-  font-size: 28px;
+  font-size: 36px;
   letter-spacing: 0px;
 }
 
