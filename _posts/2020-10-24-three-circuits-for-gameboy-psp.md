@@ -37,7 +37,7 @@ For more images, see [installation gallery](https://imgur.com/a/vMOLDO8).
 
 Check out the [code and PCB files](https://github.com/orangeglo/CircleBoy) on GitHub!
 
-### Improving a PSP Analog Stick
+### Replacing the PSP Analog Stick
 
 This last one is a completely passive adapter that lets you plug a joystick designed for the [Playstation Vita](https://en.wikipedia.org/wiki/PlayStation_Vita) into a [PSP 3000](https://en.wikipedia.org/wiki/PlayStation_Portable#PSP-3000). The stock PSP joystick only slides around (instead of tilting), so this ends up being a huge upgrade! Because the two sticks use are so similar, this PCB does not need any circuitry - only two flat flex cable connectors.
 
