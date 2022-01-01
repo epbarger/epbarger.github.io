@@ -27,11 +27,11 @@ I also had to spend time learning about the color format the Game Boys used. Tur
 
 Once I had some clues what the hexadecimal for the palette writing instructions looked like, and how to come up with the replacement colors, I was able to use a hex editor to search the ROM for code that looked like it was color related. My progress was to search, replace the color with bright red, and load it on the EverDrive to see if the change worked! Eventually I was able to map out all the colors the menus used for both the GB and GBA EverDrives!
 
-After creating a map of where each color was stored, I was ready to create websites to enable easy theme creation! Starting with the color tool I created above, I created two very similar Vue.js powered websites that let you customize all the colors with a live preview, then write out an IPS file to be applied as a patch to the original menu ROM. Both websites are quite basic, but function nice enough to be a pleasant experience.
-
 <div class='image-container'>
 [![Screenshot of GBA Theme Editor](/assets/gba_theme_editor.png)](/assets/gba_theme_editor.png)
 </div>
+
+After creating a map of where each color was stored, I was ready to create websites to enable easy theme creation! Starting with the color tool I created above, I created two very similar Vue.js powered websites that let you customize all the colors with a live preview, then write out an IPS file to be applied as a patch to the original menu ROM. Both websites are quite basic, but function nice enough to be a pleasant experience.
 
 The websites share a good bit of code with my previous Game Boy related website, the [Nintendo Power ROM Editor](/javascript/2020/04/11/gameboy_nintendo_power_rom_builder.html). I was able to borrow some code to make the in browser hex-editing of the menu ROM a lot more straightforward. The trickiest part of the website build was determining the clearest way to present the editing constraints, as the GBA model in particular has some quirks in regards to what colors the editor is and isn't able to change.
 
