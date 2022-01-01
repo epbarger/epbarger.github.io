@@ -11,7 +11,7 @@ featured-sort: 1
 
 It has been over three years since I released my first commercial game to the iOS App Store, [Endless Archery](https://apps.apple.com/us/app/endless-archery/id1390437916). Endless Archery is a simple physics game where you shoot arrows at a target over procedurally generated terrain. It's meant to be a relaxing experience, in addition to having soft achievements and a leaderboard to reward players going for high scores. The game started life as [a small PICO-8 game](/games/2018/02/09/endless-archery.html), and I released an [updated version](/games/2018/12/15/endless-archery-ios.html) to the App Store in November 2018
 
-Over the last 3 years, I've checked in here and there to update the game with new features and content. I've declared the game finished a few times, but isn't long until I think of more changes and improvements to make. It has been very satisfying to have a project to come back to here and there, where changes will have an impact on the community that continues to play the game.
+Over the years, I've checked in here and there to update the game with new features and content. I've declared the game finished a few times, but isn't long until I think of more changes and improvements to make. It has been very satisfying to have a project to come back to here and there, where changes will have an impact on the community that continues to play the game.
 
 <div class='image-container'>
 [![Endless Archery](/assets/endless_archery_ios.png)](/assets/endless_archery_ios.png)
