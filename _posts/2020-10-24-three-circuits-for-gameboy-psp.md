@@ -11,7 +11,7 @@ featured-sort: 2
 
 For whatever reason, my 2020 has been all about modding Game Boys and PSPs. I've worked on quite a few projects in this area (see [GBNP](/javascript/2020/04/11/gameboy_nintendo_power_rom_builder.html) and [Consolized PSP](/electronics/2020/02/02/ps2-controller-psp.html)), but here I want to showcase a few of the smaller mods I've created that maybe don't need a full post dedicated to them :)
 
-### Saving Brightness Levels on a GBA SP
+## Saving Brightness Levels on a GBA SP
 
 While the stock [Game Boy Advance SP](https://en.wikipedia.org/wiki/Game_Boy_Advance_SP) has two brightness levels (or on/off depending on the model), my SP has an aftermarket screen with six brightness levels! This is awesome, but usually I want it on the second lowest brightness to maximize my battery life. Unfortunately, the kit I have installed does not save my brightness preference, meaning I'd have to cycle through all the brightness levels whenever I turn the Game Boy on.
 
@@ -23,7 +23,7 @@ To fix this, I created a small circuit board to save my current brightness level
 
 Check out the [code and PCB files](https://github.com/orangeglo/SP-IPS-Brightness-Hack) on GitHub!
 
-### Installing a 3DS Slider in a GBA
+## Installing a 3DS Slider in a GBA
 
 What if instead of a directional pad, the [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance) had a 3DS joystick? This mod was something I attempted purely for my own amusement, as I think in practice these games don't work nearly as well with a joystick.
 
@@ -37,7 +37,7 @@ For more images, see [installation gallery](https://imgur.com/a/vMOLDO8).
 
 Check out the [code and PCB files](https://github.com/orangeglo/CircleBoy) on GitHub!
 
-### Replacing the PSP Analog Stick
+## Replacing the PSP Analog Stick
 
 This last one is a completely passive adapter that lets you plug a joystick designed for the [Playstation Vita](https://en.wikipedia.org/wiki/PlayStation_Vita) into a [PSP 3000](https://en.wikipedia.org/wiki/PlayStation_Portable#PSP-3000). The stock PSP joystick only slides around (instead of tilting), so this ends up being a huge upgrade! Because the two sticks use are so similar, this PCB does not need any circuitry - only two flat flex cable connectors.
 

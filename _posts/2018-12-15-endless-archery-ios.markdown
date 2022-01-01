@@ -3,7 +3,7 @@ layout: post
 title:  "Endless Archery on iOS"
 date:   2018-12-15 00:00:00 -0500
 categories: Games
-featured: true
+featured: false
 featured-headline: "Endless Archery on iOS"
 featured-image: "/assets/endless_archery_ios.png"
 featured-sort: 1
