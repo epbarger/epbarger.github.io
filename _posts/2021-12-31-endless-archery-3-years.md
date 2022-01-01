@@ -23,13 +23,13 @@ Here are a few of the more major additions to Endless Archery I've made over the
 
 ### iPad Support
 
-Just over a year after releasing the game, I released update 1.3, which added iPad support. This was a fairly large project! Though the game already had _some_ support for different screen sizes (having to support the legacy 16:9 and the newer 19:9 screen ratios), I still had to spend lots of time improving the scaling support so that the vertical size of the terrain could be scaled without affecting the physics. Thankfully I had used constants for screen width and height in the game, so it was mostly a matter of tripling checking the use of the constants in the rendering and physics systems, and adapting the menu to make use of the extra space afforded by a 4:3 ratio screen.
+Just over a year after releasing the game, I released update 1.3, which added iPad support. This was a fairly large project! Though the game already had _some_ support for different screen ratios (supporting both the older 16:9 iPhone screens and the newer 19:9 screens), I still had to spend lots of time improving the scaling support so that the vertical size of the terrain could be scaled without affecting the physics. Thankfully I had used constants for screen width and height in the game, so it was mostly a matter of tripling checking the use of the constants in the rendering and physics systems, and adapting the menu to make use of the extra space afforded by 4:3 ratio iPad screen.
 
 ### New Themes
 
 Over the three years, I've added two new "themes" to the game - a beach theme, and a moon theme. Creating a new theme in Endless Archery means new art assets need to be created, new terrain colors picked, and new bonus effects added.
 
-The moon level has reduced arrow movement speed (to simulate reduced gravity without altering the gameplay physics), and a custom random star field background, with orbiting Earth in the background.
+The moon level has reduced arrow movement speed (to simulate reduced gravity without altering the gameplay physics), and a randomly generated star field background, with orbiting Earth in the background.
 
 <div class='image-container'>
 [![Endless Archery Moon Theme](/assets/ea_moon.jpg)](/assets/ea_moon.jpg)
@@ -43,9 +43,9 @@ The beach level (released only a few days ago!) has a moving ocean tide with sai
 
 ### Random Ambient Piano Music
 
-Many of the early reviews the game received mentioned wanting some sort of relaxing background music. While I would have loved to attempt to compose music for the game, I knew that creating enough music of a quality I was happy with was _not_ going to happen. Instead, I opted to record about 50 different simple piano samples, and create a basic randomized playback engine that builds very basic pentatonic phrases. This ended up suiting the game - the piano melds into the wind sounds, and the semi-random timing of the piano phrases works quite well!
+Many of the early reviews the game received mentioned wanting some sort of relaxing background music added to the game. While I would have loved to attempt to compose music for the game, I knew that creating enough music of a quality I was happy with was likely beyond me. Instead, I opted to record about 50 different simple piano samples. I then created a randomized playback engine that builds very basic pentatonic phrases by playing groups of samples together with varied, but musical, timing. This ended up suiting the game - the piano melds into the wind sounds, and the semi-random timing of the piano phrases works quite well!
 
-As a quick sample, here's the introductory jingle that plays when the game starts up.
+As a quick example, here's the introductory jingle that plays when the game starts up.
 
 <audio controls>
   <source src="/assets/ea_intro.mp3" type="audio/mp3">
@@ -62,10 +62,10 @@ While Endless Archery was far from a smash hit on the App Store, it has done qui
 - _Downloads_ - 72,084 (More on this below!)
 - _Gross Revenue_ - About $5,000
 
-You might take a look at the downloads figure and note that it doesn't match up with the revenue number. If 72,084 people had paid me $2 I'd have been extremely pleased! However the high downloads were achieved by temporarily making the game free for periods of time. Twice a year I made the game free for about a week. This drummed up lots of downloads, and builds activity on the leaderboards. It's also a good time to connect with players, as paid games going free are usually posted on Reddit and other websites, where I can drop in and read comments. I also suspect the higher downloads helps the app's ranking in the App Store - usually I see a period of higher sales after making the game temporarily free. So this strategy has seemed to be a win-win!
+You might take a look at the downloads figure and note that it doesn't match up with the revenue number. If 72,084 people had paid me $2 I'd have been extremely pleased! However the high downloads were achieved by temporarily making the game free for periods of time. Twice a year I made the game free for about a week. This generates lots of downloads, and builds activity on the leaderboards. It's also a good time to connect with players, as paid games going free are usually posted on websites where I can drop in to read and answer comments. I also suspect the higher downloads helps the app's ranking in the App Store - usually I see a period of higher sales after making the game temporarily free. So this strategy has seemed to be a win-win!
 
 ## So Far, So Good
 
-I'm extremely thankful that overall the reception to Endless Archery was and continues to be positive! I was worried pre-release that such a simple game wouldn't appeal to anyone, but Endless Archery does seem to have attracted a niche of players.
+I'm extremely thankful that overall the reception to Endless Archery was and continues to be positive! I was worried pre-release that such a simple game wouldn't appeal to many, but Endless Archery does seem to have attracted a niche of players.
 
-Want to try the game? You can [view Endless Archery on the App Store here](https://apps.apple.com/us/app/endless-archery/id1390437916). If you would like a free promo code, feel free to shoot me an email!
+Want to try the game? You can [view Endless Archery on the App Store here](https://apps.apple.com/us/app/endless-archery/id1390437916). If you would like a free download code, feel free to shoot me an email!
