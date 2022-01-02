@@ -58,7 +58,7 @@ I released Endless Archery in the App Store at a price of $1.99. Unfortunately, 
 While Endless Archery was far from a smash hit on the App Store, it has done quite well compared to my expectations! Some stats as of writing...
 
 - _Overall Rating (All Countries)_ - 4.78 / 5
-- _Leaderboard Participants_ - 804
+- _Leaderboard Participants (Opt-In)_ - 804
 - _Downloads_ - 72,084 (More on this below!)
 - _Gross Revenue_ - About $5,000
 
