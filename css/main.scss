@@ -76,6 +76,7 @@ article {
   border-bottom: none;
   .wrapper {
     border-bottom: 1px dashed #828282;
+    padding: 0.5rem;
   }
 }
 
@@ -142,23 +143,25 @@ img, video {
 .site-title {
   font-size: 33px;
   font-weight: 300;
-  letter-spacing: 0px;
+  // letter-spacing: 0px;
+
+  background-color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  letter-spacing: 9px;
+  padding: 0rem 0.75rem;
+  text-shadow: -1px -1px 0 #666, 1px -1px 0 #666, -1px 1px 0 #666, 1px 1px 0 #666;
 }
 
 a.site-title, a.site-title:visited, a.site-title:hover {
-  color: white;
+  color: #ececec;
   text-decoration: none;
   font-family: monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transform: rotate(-1deg);
 
-/*  &:hover {
-    .sublime-pink {
-      color: #f92672;
-    }
-
-    .sublime-green {
-      color: #a6e22e;
-    }
-  }*/
+  &:hover {
+    color: white;
+  }
 }
 
 .site-nav{
@@ -289,9 +292,21 @@ code, pre {
   fill: #fff;
 }
 
+.site-nav .menu-icon > svg {
+  width: 24px;
+  height: 20px;
+}
+
+.site-nav .menu-icon {
+  width: 46px;
+  height: 34px;
+  padding-top: 14px;
+}
+
 .site-nav {
   background-color: rgb(33, 33, 33);
   border-color: white;
+  margin-top: 2px;
 }
 
 .backward { 
@@ -315,8 +330,18 @@ code, pre {
   font-family: monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@media screen and (max-width: 767px) {
+  .site-title {
+    letter-spacing: 5px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .page-link.page-link-divider {
     display: none;
+  }
+
+  a.site-title, a.site-title:visited, a.site-title:hover {
+    transform: rotate(0);
   }
 }
