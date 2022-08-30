@@ -6,7 +6,7 @@ categories: Games
 featured: false
 featured-headline: "Night Raid for Arduboy"
 featured-image: /assets/nightraidardu.jpg
-featured-sort: 3
+featured-sort: 8
 ---
 
 I recently discovered the existence of a really cool piece of hardware called the [Arduboy](http://www.arduboy.com). The Arduboy consists of an Arduino-compatible ATmega32u4 microcontroller, tiny OLED display, nice clicky buttons, and a rechargeable battery, all wrapped up in a well built package that resembles a downsized Gameboy. Writing for it is very straightforward, as the company provides a nice [open source library](https://asmcbain.net/projects/arduboy/docs/1.1/api/index.html) to interact with the hardware.

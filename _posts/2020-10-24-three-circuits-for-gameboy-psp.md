@@ -3,10 +3,10 @@ layout: post
 title:  "Three Tiny PCBs for Game Boy & PSP"
 date:   2020-10-24 00:00:00 -0500
 categories: Electronics
-featured: true
+featured: false
 featured-headline: "Three Tiny PCBs for Game Boy & PSP"
 featured-image: "/assets/circleboy.jpg"
-featured-sort: 2
+featured-sort: 7
 ---
 
 For whatever reason, my 2020 has been all about modding Game Boys and PSPs. I've worked on quite a few projects in this area (see [GBNP](/javascript/2020/04/11/gameboy_nintendo_power_rom_builder.html) and [Consolized PSP](/electronics/2020/02/02/ps2-controller-psp.html)), but here I want to showcase a few of the smaller mods I've created that maybe don't need a full post dedicated to them :)

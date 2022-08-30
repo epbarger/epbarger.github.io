@@ -283,9 +283,14 @@ code, pre {
 }
 
 .featured-headline {
-  background-color:white;
+  background-color: black;
   padding: 3px;
+  color: white;
   // border: 1px solid black;
+}
+
+a.featured-link {
+  text-decoration-color: white;
 }
 
 .site-nav .menu-icon > svg path {

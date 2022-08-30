@@ -6,7 +6,7 @@ categories: Games
 featured: false
 featured-headline: "TinyPicross for Arduboy"
 featured-image: "/assets/tinypicross_2.jpg"
-featured-sort: 5
+featured-sort: 8
 ---
 
 I decided it was time to build another game for the [Arduboy](http://www.arduboy.com), which I've [written about previously]({% post_url 2016-10-30-night-raid %}).
